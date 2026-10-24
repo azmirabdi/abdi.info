@@ -1,0 +1,50 @@
+# robots.txt is a preference for crawlers, not an access control.
+# Search indexing and model training are separate decisions.
+# Tokens checked against Google's crawler docs, OpenAI's bot docs,
+# and Cloudflare's AI Crawl Control bot reference in October 2026.
+
+User-agent: *
+Allow: /
+
+# Search and answer crawlers stay allowed.
+User-agent: Googlebot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+# Training and broad dataset crawlers are asked not to use the site.
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Google-CloudVertexBot
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+Sitemap: https://abdi.info/sitemap.xml

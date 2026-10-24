@@ -1,0 +1,25 @@
+---
+import Base from "../../layouts/Base.astro";
+import PostList from "../../components/PostList.astro";
+import { ui } from "../../i18n.ts";
+import { archivePath, categoryName, categoryPath, publicPosts, tagName, tagPath, usedCategories, usedTags } from "../../lib/content.ts";
+
+const lang = "de" as const;
+const posts = await publicPosts(lang);
+const t = ui[lang];
+---
+<Base lang={lang} title={t.navArchive} description={t.archiveLead} path={archivePath(lang)} alternatePath="/en/archive/">
+  <section class="shell page-start">
+    <div class="home-column">
+      <p class="kicker">{t.archiveLead}</p>
+      <h1>{t.navArchive}</h1>
+      <div class="filters" aria-label={t.tags}>
+        {usedTags(posts).map((tag) => <a class="chip" href={tagPath(tag.id, lang)}>{tagName(tag.id, lang)} <span>{tag.count}</span></a>)}
+      </div>
+      <div class="filters" aria-label={t.categories}>
+        {usedCategories(posts).map((category) => <a class="chip" href={categoryPath(category.id, lang)}>{categoryName(category.id, lang)}</a>)}
+      </div>
+      <PostList posts={posts} lang={lang} />
+    </div>
+  </section>
+</Base>

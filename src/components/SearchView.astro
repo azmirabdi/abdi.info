@@ -1,0 +1,65 @@
+---
+import Base from "../layouts/Base.astro";
+import { ui, type Lang } from "../i18n.ts";
+import { formatDate, postPath, publicPosts, searchPath, tagName } from "../lib/content.ts";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = ui[lang];
+const posts = await publicPosts(lang);
+const alternate = lang === "de" ? "/en/search/" : "/suche/";
+---
+
+<Base lang={lang} title={t.search} description={t.searchHint} path={searchPath(lang)} alternatePath={alternate}>
+  <section class="shell page-start">
+    <div class="home-column">
+    <p class="kicker">{t.siteDescription}</p>
+    <h1>{t.search}</h1>
+    <form class="search" action={searchPath(lang)} method="get">
+      <label for="q">{t.searchLabel}</label>
+      <input id="q" name="q" type="search" autocomplete="off" enterkeyhint="search" />
+    </form>
+    <p class="meta">{t.searchHint}</p>
+    <p class="notice" data-search-empty hidden>{t.searchEmpty}</p>
+    <ol class="post-list" data-search-list>
+      {posts.map((post) => (
+        <li data-search-item data-text={`${post.data.title} ${post.data.description} ${post.data.tags.map((tag) => tagName(tag, lang)).join(" ")}`.toLowerCase()}>
+          <time datetime={post.data.pubDate}>{formatDate(post.data.pubDate, lang)}</time>
+          <div>
+            <a href={postPath(post)}>{post.data.title}</a>
+            <p class="meta">{post.data.description}</p>
+          </div>
+        </li>
+      ))}
+    </ol>
+    </div>
+  </section>
+</Base>
+
+<script>
+  const input = document.querySelector<HTMLInputElement>("#q");
+  const items = [...document.querySelectorAll<HTMLElement>("[data-search-item]")];
+  const empty = document.querySelector<HTMLElement>("[data-search-empty]");
+  function apply(raw: string) {
+    const query = raw.trim().toLowerCase();
+    let visible = 0;
+    for (const item of items) {
+      const match = !query || (item.dataset.text || "").includes(query);
+      item.hidden = !match;
+      if (match) visible += 1;
+    }
+    if (empty) empty.hidden = visible !== 0;
+  }
+  const initial = new URLSearchParams(location.search).get("q") || "";
+  if (input) {
+    input.value = initial;
+    apply(initial);
+    input.addEventListener("input", () => {
+      const url = new URL(location.href);
+      if (input.value) url.searchParams.set("q", input.value);
+      else url.searchParams.delete("q");
+      history.replaceState(null, "", url);
+      apply(input.value);
+    });
+  }
+</script>

@@ -1,0 +1,30 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { ui } from "../../../i18n.ts";
+import { categoryName, categoryPath, publicPosts, tagName, tagPath, topicsPath, usedCategories, usedTags } from "../../../lib/content.ts";
+
+const lang = "en" as const;
+const posts = await publicPosts(lang);
+const tags = usedTags(posts);
+const t = ui[lang];
+---
+<Base lang={lang} title={t.navTopics} description={t.topicsLead} path={topicsPath(lang)} alternatePath="/themen/">
+  <section class="shell page-start">
+    <div class="home-column">
+      <p class="kicker">{t.siteDescription}</p>
+      <h1>{t.navTopics}</h1>
+      <h2>{t.frequent}</h2>
+      <div class="filters">
+        {tags.filter((tag) => tag.count > 1).map((tag) => <a class="chip" href={tagPath(tag.id, lang)}>{tagName(tag.id, lang)} <span>{tag.count}</span></a>)}
+      </div>
+      <h2>{t.allTopics}</h2>
+      <div class="filters">
+        {tags.map((tag) => <a class="chip" href={tagPath(tag.id, lang)}>{tagName(tag.id, lang)} <span>{tag.count}</span></a>)}
+      </div>
+      <h2>{t.categoryArchive}</h2>
+      <div class="filters">
+        {usedCategories(posts).map((category) => <a class="chip" href={categoryPath(category.id, lang)}>{categoryName(category.id, lang)} <span>{category.count}</span></a>)}
+      </div>
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,237 @@
+{
+  "tags": [
+    {
+      "id": "artikel",
+      "wpTermId": 24,
+      "nameDe": "Artikel",
+      "used": true,
+      "nameEn": "Article"
+    },
+    {
+      "id": "asyncapi",
+      "wpTermId": 20,
+      "nameDe": "AsyncAPI",
+      "used": true,
+      "nameEn": "AsyncAPI"
+    },
+    {
+      "id": "bdd",
+      "wpTermId": 10,
+      "nameDe": "BDD",
+      "used": true,
+      "nameEn": "BDD"
+    },
+    {
+      "id": "bpm",
+      "wpTermId": 3,
+      "nameDe": "BPM",
+      "used": true,
+      "nameEn": "BPM"
+    },
+    {
+      "id": "cdc",
+      "wpTermId": 25,
+      "nameDe": "CDC",
+      "used": true,
+      "nameEn": "CDC"
+    },
+    {
+      "id": "cucumber",
+      "wpTermId": 11,
+      "nameDe": "Cucumber",
+      "used": true,
+      "nameEn": "Cucumber"
+    },
+    {
+      "id": "dantenzentrisch",
+      "wpTermId": 32,
+      "nameDe": "dantenzentrisch",
+      "used": true,
+      "nameEn": "data-centric"
+    },
+    {
+      "id": "datengetrieben",
+      "wpTermId": 33,
+      "nameDe": "datengetrieben",
+      "used": true,
+      "nameEn": "data-driven"
+    },
+    {
+      "id": "dca",
+      "wpTermId": 31,
+      "nameDe": "DCA",
+      "used": true,
+      "nameEn": "DCA"
+    },
+    {
+      "id": "enterprise-architecture",
+      "wpTermId": 4,
+      "nameDe": "Enterprise Architecture",
+      "used": true,
+      "nameEn": "Enterprise Architecture"
+    },
+    {
+      "id": "hybrid-konferenz",
+      "wpTermId": 16,
+      "nameDe": "Hybrid-Konferenz",
+      "used": true,
+      "nameEn": "hybrid conference"
+    },
+    {
+      "id": "initial-state",
+      "wpTermId": 13,
+      "nameDe": "initial state",
+      "used": true,
+      "nameEn": "initial state"
+    },
+    {
+      "id": "jax",
+      "wpTermId": 17,
+      "nameDe": "JAX",
+      "used": true,
+      "nameEn": "JAX"
+    },
+    {
+      "id": "microservices",
+      "wpTermId": 6,
+      "nameDe": "Microservices",
+      "used": true,
+      "nameEn": "Microservices"
+    },
+    {
+      "id": "openap",
+      "wpTermId": 21,
+      "nameDe": "OpenAP",
+      "used": false,
+      "nameEn": "OpenAP"
+    },
+    {
+      "id": "openapi",
+      "wpTermId": 22,
+      "nameDe": "OpenAPI",
+      "used": true,
+      "nameEn": "OpenAPI"
+    },
+    {
+      "id": "rbpm",
+      "wpTermId": 7,
+      "nameDe": "rBPM",
+      "used": true,
+      "nameEn": "rBPM"
+    },
+    {
+      "id": "rc1",
+      "wpTermId": 14,
+      "nameDe": "rc1",
+      "used": true,
+      "nameEn": "rc1"
+    },
+    {
+      "id": "soa",
+      "wpTermId": 8,
+      "nameDe": "SOA",
+      "used": true,
+      "nameEn": "SOA"
+    },
+    {
+      "id": "testing",
+      "wpTermId": 26,
+      "nameDe": "Testing",
+      "used": true,
+      "nameEn": "Testing"
+    },
+    {
+      "id": "vortrag",
+      "wpTermId": 18,
+      "nameDe": "Vortrag",
+      "used": true,
+      "nameEn": "Talk"
+    }
+  ],
+  "categories": [
+    {
+      "id": "agile",
+      "wpTermId": 27,
+      "nameDe": "Agile",
+      "used": true,
+      "nameEn": "Agile"
+    },
+    {
+      "id": "ai",
+      "wpTermId": 34,
+      "nameDe": "AI",
+      "used": true,
+      "nameEn": "AI"
+    },
+    {
+      "id": "allgemein",
+      "wpTermId": 1,
+      "nameDe": "Allgemein",
+      "used": true,
+      "nameEn": "General"
+    },
+    {
+      "id": "artikel",
+      "wpTermId": 23,
+      "nameDe": "Artikel",
+      "used": true,
+      "nameEn": "Article"
+    },
+    {
+      "id": "blog",
+      "wpTermId": 2,
+      "nameDe": "Blog",
+      "used": true,
+      "nameEn": "Blog"
+    },
+    {
+      "id": "coding-patterns",
+      "wpTermId": 12,
+      "nameDe": "Coding Patterns",
+      "used": true,
+      "nameEn": "Coding Patterns"
+    },
+    {
+      "id": "dca",
+      "wpTermId": 30,
+      "nameDe": "DCA",
+      "used": true,
+      "nameEn": "DCA"
+    },
+    {
+      "id": "ddd",
+      "wpTermId": 29,
+      "nameDe": "DDD",
+      "used": true,
+      "nameEn": "DDD"
+    },
+    {
+      "id": "microservices",
+      "wpTermId": 5,
+      "nameDe": "Microservices",
+      "used": true,
+      "nameEn": "Microservices"
+    },
+    {
+      "id": "talk",
+      "wpTermId": 9,
+      "nameDe": "Talk",
+      "used": true,
+      "nameEn": "Talk"
+    },
+    {
+      "id": "testing",
+      "wpTermId": 28,
+      "nameDe": "Testing",
+      "used": true,
+      "nameEn": "Testing"
+    },
+    {
+      "id": "uncategorized",
+      "wpTermId": 15,
+      "nameDe": "Uncategorized",
+      "used": false,
+      "nameEn": "Uncategorized"
+    }
+  ]
+}

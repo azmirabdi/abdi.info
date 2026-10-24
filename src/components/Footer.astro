@@ -1,0 +1,21 @@
+---
+import { ui, type Lang } from "../i18n.ts";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = ui[lang];
+const imprint = lang === "de" ? "/impressum/" : "/en/imprint/";
+const privacy = lang === "de" ? "/datenschutzerklaerung/" : "/en/privacy/";
+const rss = lang === "de" ? "/rss.xml" : "/en/rss.xml";
+---
+
+<footer class="site-footer">
+  <div class="shell footer-inner">
+    <p>{t.footerNote}</p>
+    <nav aria-label="Footer">
+      <a href={imprint}>{t.imprint}</a>
+      <a href={privacy}>{t.privacy}</a>
+      <a href={rss}>{t.rss}</a>
+    </nav>
+  </div>
+</footer>

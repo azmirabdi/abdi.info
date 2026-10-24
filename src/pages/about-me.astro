@@ -1,0 +1,18 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "../layouts/Base.astro";
+import { ui } from "../i18n.ts";
+
+const page = (await getCollection("pages")).find((entry) => entry.data.lang === "de" && entry.data.slug === "about-me");
+if (!page) throw new Error("about page missing");
+const { Content } = await render(page);
+---
+<Base lang="de" title={page.data.title} description={page.data.description} path="/about-me/" alternatePath="/en/about/">
+  <article class="shell page-start">
+    <div class="home-column">
+      <p class="kicker">{ui.de.siteDescription}</p>
+      <h1>{page.data.title}</h1>
+      <div class="prose"><Content /></div>
+    </div>
+  </article>
+</Base>

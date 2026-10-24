@@ -1,0 +1,49 @@
+---
+import { Image } from "astro:assets";
+import Base from "../layouts/Base.astro";
+import PostList from "./PostList.astro";
+import { ui, type Lang } from "../i18n.ts";
+import { aboutPath, archivePath, homePath, postPath, publicPosts, topicsPath } from "../lib/content.ts";
+import { loadImage } from "../lib/images.ts";
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = ui[lang];
+const all = await publicPosts(lang);
+const [featured, ...rest] = all;
+const hero = featured ? await loadImage(featured.data.heroImage) : null;
+const otherHome = lang === "de" ? "/en/" : "/";
+---
+
+<Base lang={lang} title={t.siteName} description={t.siteDescription} path={homePath(lang)} alternatePath={otherHome}>
+  <section class="hero">
+    <div class="shell">
+      <div class="home-column">
+        <p class="kicker">{t.siteDescription}</p>
+        <h1>{lang === "de" ? "Notizen zu Datenarchitektur" : "Notes on data architecture"}</h1>
+        <p class="lede">{t.homeIntro}</p>
+        <div class="hero-actions">
+          <a href={aboutPath(lang)}>{t.homeAbout}</a>
+          <a href={topicsPath(lang)}>{t.navTopics}</a>
+          <a href={archivePath(lang)}>{t.navArchive}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="shell">
+    <div class="home-column">
+      {featured && (
+        <section class="featured">
+          <p class="kicker">{t.featured}</p>
+          {hero && <Image src={hero} alt={featured.data.heroAlt} widths={[640, 960, 1200]} sizes="(min-width: 760px) 40rem, 100vw" />}
+          <a class="title" href={postPath(featured)}>{featured.data.title}</a>
+          <p>{featured.data.description}</p>
+        </section>
+      )}
+      <section class="layout">
+        <h2>{t.more}</h2>
+        <PostList posts={rest} lang={lang} />
+      </section>
+    </div>
+  </div>
+</Base>

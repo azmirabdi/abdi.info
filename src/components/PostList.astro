@@ -1,0 +1,27 @@
+---
+import type { Lang } from "../i18n.ts";
+import { categoryName, categoryPath, formatDate, postPath, tagName, tagPath, type Post } from "../lib/content.ts";
+
+interface Props { posts: Post[]; lang: Lang }
+const { posts, lang } = Astro.props;
+---
+
+<ol class="post-list">
+  {posts.map((post) => (
+    <li>
+      <time datetime={post.data.pubDate}>{formatDate(post.data.pubDate, lang)}</time>
+      <div>
+        <a href={postPath(post)}>{post.data.title}</a>
+        {post.data.draft && <span class="meta"> · {lang === "de" ? "Entwurf" : "Draft"}</span>}
+        <div class="tag-row">
+          {post.data.tags.slice(0, 4).map((tag) => (
+            <a class="tag" href={tagPath(tag, lang)}>{tagName(tag, lang)}</a>
+          ))}
+          {post.data.categories.slice(0, 2).map((category) => (
+            <a class="tag" href={categoryPath(category, lang)}>{categoryName(category, lang)}</a>
+          ))}
+        </div>
+      </div>
+    </li>
+  ))}
+</ol>

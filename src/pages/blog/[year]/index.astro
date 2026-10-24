@@ -1,0 +1,26 @@
+---
+import Base from "../../../layouts/Base.astro";
+import PostList from "../../../components/PostList.astro";
+import { ui } from "../../../i18n.ts";
+import { publicPosts } from "../../../lib/content.ts";
+
+export async function getStaticPaths() {
+  const posts = await publicPosts("de");
+  const years = [...new Set(posts.map((post) => post.data.year))];
+  return years.map((year) => ({
+    params: { year: String(year) },
+    props: { year, posts: posts.filter((post) => post.data.year === year) },
+  }));
+}
+const { year, posts } = Astro.props;
+const t = ui.de;
+---
+<Base lang="de" title={`${t.year} ${year}`} description={`${t.archiveLead} ${year}`} path={`/blog/${year}/`} alternatePath={`/en/blog/${year}/`}>
+  <section class="shell page-start">
+    <div class="home-column">
+      <p class="kicker"><a href="/archiv/">{t.navArchive}</a></p>
+      <h1>{year}</h1>
+      <PostList posts={posts} lang="de" />
+    </div>
+  </section>
+</Base>

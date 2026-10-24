@@ -1,0 +1,23 @@
+---
+import Base from "../../../layouts/Base.astro";
+import PostList from "../../../components/PostList.astro";
+import { ui } from "../../../i18n.ts";
+import { publicPosts, tagName, tagPath, topicsPath } from "../../../lib/content.ts";
+
+export async function getStaticPaths() {
+  const posts = await publicPosts("en");
+  const ids = [...new Set(posts.flatMap((post) => post.data.tags))];
+  return ids.map((tag) => ({ params: { tag }, props: { tag, posts: posts.filter((post) => post.data.tags.includes(tag)) } }));
+}
+const { tag, posts } = Astro.props;
+const name = tagName(tag, "en");
+---
+<Base lang="en" title={name} description={`${ui.en.articles}: ${name}`} path={tagPath(tag, "en")} alternatePath={`/themen/${tag}/`}>
+  <section class="shell page-start">
+    <div class="home-column">
+      <p class="kicker"><a href={topicsPath("en")}>{ui.en.navTopics}</a></p>
+      <h1>{name}</h1>
+      <PostList posts={posts} lang="en" />
+    </div>
+  </section>
+</Base>

@@ -1,0 +1,104 @@
+---
+import { ui, type Lang } from "../i18n.ts";
+import { aboutPath, archivePath, homePath, searchPath, topicsPath } from "../lib/content.ts";
+
+interface Props {
+  lang: Lang;
+  path: string;
+  alternatePath?: string;
+}
+const { lang, path, alternatePath } = Astro.props;
+const t = ui[lang];
+const items = [
+  { href: topicsPath(lang), label: t.navTopics },
+  { href: archivePath(lang), label: t.navArchive },
+  { href: aboutPath(lang), label: t.navAbout },
+  { href: searchPath(lang), label: t.search },
+];
+---
+
+<header class="site-header">
+  <div class="shell header-inner">
+    <a class="brand" href={homePath(lang)}>
+      <strong>{t.siteName}</strong>
+      <span>Data-Centric · AI-Native</span>
+    </a>
+    <nav class="nav-desktop" aria-label={t.navHome}>
+      {items.map((item) => (
+        <a href={item.href} aria-current={path === item.href ? "page" : undefined}>{item.label}</a>
+      ))}
+    </nav>
+    <div class="tools">
+      <div class="lang-switch" role="group" aria-label={t.language}>
+        {(["de", "en"] as const).map((code) => {
+          const current = code === lang;
+          const href = current ? path : alternatePath;
+          const label = code.toUpperCase();
+          return href ? (
+            <a href={href} href-lang={code} aria-current={current ? "true" : undefined}>{label}</a>
+          ) : (
+            <span aria-current={current ? "true" : undefined} aria-disabled="true">{label}</span>
+          );
+        })}
+      </div>
+      <div class="theme-switch" role="group" aria-label={t.theme}>
+        <button type="button" data-theme-set="light" aria-pressed="false">{t.themeLight}</button>
+        <button type="button" data-theme-set="dark" aria-pressed="false">{t.themeDark}</button>
+      </div>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-nav">
+        <svg class="menu-icon menu-icon-open" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M4 7h16M4 12h16M4 17h16" />
+        </svg>
+        <svg class="menu-icon menu-icon-close" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M6 6l12 12M18 6L6 18" />
+        </svg>
+        <span class="visually-hidden menu-label-open">{t.menu}</span>
+        <span class="visually-hidden menu-label-close">{t.menuShut}</span>
+      </button>
+    </div>
+  </div>
+  <div class="shell">
+    <nav id="mobile-nav" class="nav-mobile" data-open="false" aria-label={t.menu} hidden>
+      {items.map((item) => (
+        <a href={item.href}>{item.label}</a>
+      ))}
+    </nav>
+  </div>
+</header>
+
+<script>
+  const button = document.querySelector<HTMLButtonElement>(".menu-button");
+  const nav = document.querySelector<HTMLElement>("#mobile-nav");
+  function setOpen(open: boolean) {
+    if (!button || !nav) return;
+    button.setAttribute("aria-expanded", String(open));
+    nav.hidden = !open;
+    nav.dataset.open = String(open);
+    document.body.classList.toggle("nav-open", open);
+    if (open) nav.querySelector("a")?.focus();
+    else button.focus();
+  }
+
+  button?.addEventListener("click", () => setOpen(button.getAttribute("aria-expanded") !== "true"));
+  nav?.addEventListener("click", (event) => {
+    if ((event.target as HTMLElement).closest("a")) setOpen(false);
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && button?.getAttribute("aria-expanded") === "true") setOpen(false);
+  });
+
+  function paintTheme(theme: string) {
+    document.querySelectorAll<HTMLButtonElement>("[data-theme-set]").forEach((item) => {
+      item.setAttribute("aria-pressed", String(item.dataset.themeSet === theme));
+    });
+  }
+  paintTheme(document.documentElement.dataset.theme || "light");
+  document.querySelectorAll<HTMLButtonElement>("[data-theme-set]").forEach((item) => {
+    item.addEventListener("click", () => {
+      const theme = item.dataset.themeSet || "light";
+      document.documentElement.dataset.theme = theme;
+      localStorage.setItem("theme", theme);
+      paintTheme(theme);
+    });
+  });
+</script>

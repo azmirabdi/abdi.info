@@ -1,0 +1,15 @@
+# Azmir Abdi
+
+Personal blog on business informatics and IT architecture: https://abdi.info/
+
+This file is a short guide for automated readers. It does not replace the sitemap, the HTML pages, or structured data.
+
+- German home: https://abdi.info/
+- English home: https://abdi.info/en/
+- About: https://abdi.info/about-me/
+- Topics: https://abdi.info/themen/
+- Sitemap: https://abdi.info/sitemap.xml
+- German feed: https://abdi.info/rss.xml
+- English feed: https://abdi.info/en/rss.xml
+
+The German imprint and privacy notice are the authoritative legal texts.

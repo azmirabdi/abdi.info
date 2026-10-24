@@ -1,0 +1,15 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import { ui } from "../../i18n.ts";
+
+const page = (await getCollection("legal")).find((entry) => entry.data.lang === "en" && entry.data.slug === "imprint");
+if (!page) throw new Error("imprint missing");
+---
+<Base lang="en" title={page.data.title} description="Translated imprint. The German text is authoritative." path="/en/imprint/" alternatePath="/impressum/">
+  <article class="legal">
+    <h1>{page.data.title}</h1>
+    <p class="notice">{ui.en.legalTranslation}</p>
+    <div class="legal-body" set:html={page.data.html} />
+  </article>
+</Base>

@@ -1,0 +1,971 @@
+{
+  "export": "azmirabdi039sblog.WordPress.2026-10-24.xml",
+  "publishedPosts": 15,
+  "publishedPages": 3,
+  "attachmentsInExport": 63,
+  "mediaStored": 56,
+  "mediaBytes": 40825386,
+  "explicitSubstitutes": [
+    {
+      "attachmentId": 22,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/06/20200527_214017-scaled-1.jpg",
+      "storedPath": "2020/06/20200527_214017-scaled-1.jpg",
+      "bytes": 662052,
+      "bytePolicy": "gps-removed-metadata-stripped",
+      "width": 2560,
+      "height": 1567,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 152,
+      "url": "https://abdi.info/wp-content/uploads/2020/06/20200527_214017-scaled-1.jpg",
+      "attachedFile": "2020/06/20200527_214017-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/06/20200527_214017-scaled-1-1024x627.jpg",
+        "2020/06/20200527_214017-scaled-1-1200x735.jpg",
+        "2020/06/20200527_214017-scaled-1-150x150.jpg",
+        "2020/06/20200527_214017-scaled-1-1536x940.jpg",
+        "2020/06/20200527_214017-scaled-1-1980x1212.jpg",
+        "2020/06/20200527_214017-scaled-1-2048x1254.jpg",
+        "2020/06/20200527_214017-scaled-1-300x184.jpg",
+        "2020/06/20200527_214017-scaled-1-768x470.jpg",
+        "2020/06/20200527_214017-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 85,
+      "status": "explicit-substitute",
+      "substituteReason": "wordpress-editor-crop-without-coordinates",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2019/08/20200419_114015-e1591303370820.jpg",
+      "storedPath": "2019/08/20200419_114015-e1591303370820-crop.jpg",
+      "bytes": 166865,
+      "bytePolicy": "byte-identical",
+      "width": 951,
+      "height": 535,
+      "alt": "",
+      "notes": [
+        "WordPress image editor crop is displayed because the export has no crop rectangle."
+      ],
+      "parent": 83,
+      "url": "https://abdi.info/wp-content/uploads/2019/08/20200419_114015-e1591303370820.jpg",
+      "attachedFile": "2019/08/20200419_114015-e1591303370820.jpg",
+      "legacyUploadPaths": [
+        "2019/08/20200419_114015-e1591303370820-150x150.jpg",
+        "2019/08/20200419_114015-e1591303370820-300x169.jpg",
+        "2019/08/20200419_114015-e1591303370820-768x432.jpg",
+        "2019/08/20200419_114015-e1591303370820.jpg"
+      ]
+    },
+    {
+      "attachmentId": 86,
+      "status": "explicit-substitute",
+      "substituteReason": "wordpress-editor-crop-without-coordinates",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/06/20200105_104406-e1591303615592.jpg",
+      "storedPath": "2020/06/20200105_104406-e1591303615592-crop.jpg",
+      "bytes": 131237,
+      "bytePolicy": "byte-identical",
+      "width": 1360,
+      "height": 513,
+      "alt": "",
+      "notes": [
+        "WordPress image editor crop is displayed because the export has no crop rectangle."
+      ],
+      "parent": 0,
+      "url": "https://abdi.info/wp-content/uploads/2020/06/20200105_104406-e1591303615592.jpg",
+      "attachedFile": "2020/06/20200105_104406-e1591303615592.jpg",
+      "legacyUploadPaths": [
+        "2020/06/20200105_104406-e1591303615592-1024x386.jpg",
+        "2020/06/20200105_104406-e1591303615592-1200x453.jpg",
+        "2020/06/20200105_104406-e1591303615592-150x150.jpg",
+        "2020/06/20200105_104406-e1591303615592-300x113.jpg",
+        "2020/06/20200105_104406-e1591303615592-768x290.jpg",
+        "2020/06/20200105_104406-e1591303615592.jpg"
+      ]
+    },
+    {
+      "attachmentId": 108,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/06/20200606_215620-scaled-1.jpg",
+      "storedPath": "2020/06/20200606_215620-scaled-1.jpg",
+      "bytes": 355804,
+      "bytePolicy": "gps-removed-metadata-stripped",
+      "width": 2560,
+      "height": 1440,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 106,
+      "url": "https://abdi.info/wp-content/uploads/2020/06/20200606_215620-scaled-1.jpg",
+      "attachedFile": "2020/06/20200606_215620-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/06/20200606_215620-scaled-1-1024x576.jpg",
+        "2020/06/20200606_215620-scaled-1-1200x675.jpg",
+        "2020/06/20200606_215620-scaled-1-150x150.jpg",
+        "2020/06/20200606_215620-scaled-1-1536x864.jpg",
+        "2020/06/20200606_215620-scaled-1-1980x1114.jpg",
+        "2020/06/20200606_215620-scaled-1-2048x1152.jpg",
+        "2020/06/20200606_215620-scaled-1-300x169.jpg",
+        "2020/06/20200606_215620-scaled-1-768x432.jpg",
+        "2020/06/20200606_215620-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 109,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/06/20200606_215653-scaled-1.jpg",
+      "storedPath": "2020/06/20200606_215653-scaled-1.jpg",
+      "bytes": 452759,
+      "bytePolicy": "gps-removed-metadata-stripped",
+      "width": 2560,
+      "height": 1440,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 106,
+      "url": "https://abdi.info/wp-content/uploads/2020/06/20200606_215653-scaled-1.jpg",
+      "attachedFile": "2020/06/20200606_215653-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/06/20200606_215653-scaled-1-1024x576.jpg",
+        "2020/06/20200606_215653-scaled-1-1200x675.jpg",
+        "2020/06/20200606_215653-scaled-1-150x150.jpg",
+        "2020/06/20200606_215653-scaled-1-1536x864.jpg",
+        "2020/06/20200606_215653-scaled-1-1980x1114.jpg",
+        "2020/06/20200606_215653-scaled-1-2048x1152.jpg",
+        "2020/06/20200606_215653-scaled-1-300x169.jpg",
+        "2020/06/20200606_215653-scaled-1-768x432.jpg",
+        "2020/06/20200606_215653-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 111,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2019/05/20200606_215710-scaled-1.jpg",
+      "storedPath": "2019/05/20200606_215710-scaled-1.jpg",
+      "bytes": 497793,
+      "bytePolicy": "gps-removed-metadata-stripped",
+      "width": 2560,
+      "height": 1440,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 106,
+      "url": "https://abdi.info/wp-content/uploads/2019/05/20200606_215710-scaled-1.jpg",
+      "attachedFile": "2019/05/20200606_215710-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2019/05/20200606_215710-scaled-1-1024x576.jpg",
+        "2019/05/20200606_215710-scaled-1-1200x675.jpg",
+        "2019/05/20200606_215710-scaled-1-150x150.jpg",
+        "2019/05/20200606_215710-scaled-1-1536x864.jpg",
+        "2019/05/20200606_215710-scaled-1-1980x1114.jpg",
+        "2019/05/20200606_215710-scaled-1-2048x1152.jpg",
+        "2019/05/20200606_215710-scaled-1-300x169.jpg",
+        "2019/05/20200606_215710-scaled-1-768x432.jpg",
+        "2019/05/20200606_215710-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 112,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2019/05/20200606_215722-scaled-1.jpg",
+      "storedPath": "2019/05/20200606_215722-scaled-1.jpg",
+      "bytes": 377683,
+      "bytePolicy": "gps-removed-metadata-stripped",
+      "width": 2560,
+      "height": 1440,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 106,
+      "url": "https://abdi.info/wp-content/uploads/2019/05/20200606_215722-scaled-1.jpg",
+      "attachedFile": "2019/05/20200606_215722-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2019/05/20200606_215722-scaled-1-1024x576.jpg",
+        "2019/05/20200606_215722-scaled-1-1200x675.jpg",
+        "2019/05/20200606_215722-scaled-1-150x150.jpg",
+        "2019/05/20200606_215722-scaled-1-1536x864.jpg",
+        "2019/05/20200606_215722-scaled-1-1980x1114.jpg",
+        "2019/05/20200606_215722-scaled-1-2048x1152.jpg",
+        "2019/05/20200606_215722-scaled-1-300x169.jpg",
+        "2019/05/20200606_215722-scaled-1-768x432.jpg",
+        "2019/05/20200606_215722-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 113,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2019/05/20200606_215727-scaled-1.jpg",
+      "storedPath": "2019/05/20200606_215727-scaled-1.jpg",
+      "bytes": 367110,
+      "bytePolicy": "gps-removed-metadata-stripped",
+      "width": 2560,
+      "height": 1440,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 106,
+      "url": "https://abdi.info/wp-content/uploads/2019/05/20200606_215727-scaled-1.jpg",
+      "attachedFile": "2019/05/20200606_215727-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2019/05/20200606_215727-scaled-1-1024x576.jpg",
+        "2019/05/20200606_215727-scaled-1-1200x675.jpg",
+        "2019/05/20200606_215727-scaled-1-150x150.jpg",
+        "2019/05/20200606_215727-scaled-1-1536x864.jpg",
+        "2019/05/20200606_215727-scaled-1-1980x1114.jpg",
+        "2019/05/20200606_215727-scaled-1-2048x1152.jpg",
+        "2019/05/20200606_215727-scaled-1-300x169.jpg",
+        "2019/05/20200606_215727-scaled-1-768x432.jpg",
+        "2019/05/20200606_215727-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 114,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2019/05/20200606_215730-scaled-1.jpg",
+      "storedPath": "2019/05/20200606_215730-scaled-1.jpg",
+      "bytes": 377056,
+      "bytePolicy": "gps-removed-metadata-stripped",
+      "width": 2560,
+      "height": 1440,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 106,
+      "url": "https://abdi.info/wp-content/uploads/2019/05/20200606_215730-scaled-1.jpg",
+      "attachedFile": "2019/05/20200606_215730-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2019/05/20200606_215730-scaled-1-1024x576.jpg",
+        "2019/05/20200606_215730-scaled-1-1200x675.jpg",
+        "2019/05/20200606_215730-scaled-1-150x150.jpg",
+        "2019/05/20200606_215730-scaled-1-1536x864.jpg",
+        "2019/05/20200606_215730-scaled-1-1980x1114.jpg",
+        "2019/05/20200606_215730-scaled-1-2048x1152.jpg",
+        "2019/05/20200606_215730-scaled-1-300x169.jpg",
+        "2019/05/20200606_215730-scaled-1-768x432.jpg",
+        "2019/05/20200606_215730-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 115,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2019/05/20200606_215722-1-scaled-1.jpg",
+      "storedPath": "2019/05/20200606_215722-scaled-1.jpg",
+      "bytes": 377683,
+      "bytePolicy": "gps-removed-metadata-stripped",
+      "width": 2560,
+      "height": 1440,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 106,
+      "url": "https://abdi.info/wp-content/uploads/2019/05/20200606_215722-1-scaled-1.jpg",
+      "attachedFile": "2019/05/20200606_215722-1-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2019/05/20200606_215722-1-scaled-1-1024x576.jpg",
+        "2019/05/20200606_215722-1-scaled-1-1200x675.jpg",
+        "2019/05/20200606_215722-1-scaled-1-150x150.jpg",
+        "2019/05/20200606_215722-1-scaled-1-1536x864.jpg",
+        "2019/05/20200606_215722-1-scaled-1-1980x1114.jpg",
+        "2019/05/20200606_215722-1-scaled-1-2048x1152.jpg",
+        "2019/05/20200606_215722-1-scaled-1-300x169.jpg",
+        "2019/05/20200606_215722-1-scaled-1-768x432.jpg",
+        "2019/05/20200606_215722-1-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 116,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2019/05/20200606_215742-scaled-1.jpg",
+      "storedPath": "2019/05/20200606_215742-scaled-1.jpg",
+      "bytes": 371212,
+      "bytePolicy": "gps-removed-metadata-stripped",
+      "width": 2560,
+      "height": 1440,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 106,
+      "url": "https://abdi.info/wp-content/uploads/2019/05/20200606_215742-scaled-1.jpg",
+      "attachedFile": "2019/05/20200606_215742-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2019/05/20200606_215742-scaled-1-1024x576.jpg",
+        "2019/05/20200606_215742-scaled-1-1200x675.jpg",
+        "2019/05/20200606_215742-scaled-1-150x150.jpg",
+        "2019/05/20200606_215742-scaled-1-1536x864.jpg",
+        "2019/05/20200606_215742-scaled-1-1980x1114.jpg",
+        "2019/05/20200606_215742-scaled-1-2048x1152.jpg",
+        "2019/05/20200606_215742-scaled-1-300x169.jpg",
+        "2019/05/20200606_215742-scaled-1-768x432.jpg",
+        "2019/05/20200606_215742-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 118,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2019/05/20200606_215747-scaled-1.jpg",
+      "storedPath": "2019/05/20200606_215747-scaled-1.jpg",
+      "bytes": 406918,
+      "bytePolicy": "gps-removed-metadata-stripped",
+      "width": 2560,
+      "height": 1440,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 106,
+      "url": "https://abdi.info/wp-content/uploads/2019/05/20200606_215747-scaled-1.jpg",
+      "attachedFile": "2019/05/20200606_215747-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2019/05/20200606_215747-scaled-1-1024x576.jpg",
+        "2019/05/20200606_215747-scaled-1-1200x675.jpg",
+        "2019/05/20200606_215747-scaled-1-150x150.jpg",
+        "2019/05/20200606_215747-scaled-1-1536x864.jpg",
+        "2019/05/20200606_215747-scaled-1-1980x1114.jpg",
+        "2019/05/20200606_215747-scaled-1-2048x1152.jpg",
+        "2019/05/20200606_215747-scaled-1-300x169.jpg",
+        "2019/05/20200606_215747-scaled-1-768x432.jpg",
+        "2019/05/20200606_215747-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 119,
+      "status": "explicit-substitute",
+      "substituteReason": "wordpress-editor-crop-without-coordinates",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2019/05/IMG_9938-1-scaled-e1591474640407.jpg",
+      "storedPath": "2019/05/IMG_9938-1-scaled-e1591474640407-crop.jpg",
+      "bytes": 86329,
+      "bytePolicy": "gps-removed-metadata-stripped",
+      "width": 1388,
+      "height": 676,
+      "alt": "",
+      "notes": [
+        "WordPress image editor crop is displayed because the export has no crop rectangle."
+      ],
+      "parent": 106,
+      "url": "https://abdi.info/wp-content/uploads/2019/05/IMG_9938-1-scaled-e1591474640407.jpg",
+      "attachedFile": "2019/05/IMG_9938-1-scaled-e1591474640407.jpg",
+      "legacyUploadPaths": [
+        "2019/05/IMG_9938-1-scaled-e1591474640407-1024x499.jpg",
+        "2019/05/IMG_9938-1-scaled-e1591474640407-1200x584.jpg",
+        "2019/05/IMG_9938-1-scaled-e1591474640407-150x150.jpg",
+        "2019/05/IMG_9938-1-scaled-e1591474640407-300x146.jpg",
+        "2019/05/IMG_9938-1-scaled-e1591474640407-768x374.jpg",
+        "2019/05/IMG_9938-1-scaled-e1591474640407.jpg"
+      ]
+    },
+    {
+      "attachmentId": 131,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/09/Jax2020_OliverAzmir-scaled-1.jpg",
+      "storedPath": "2020/09/Jax2020_OliverAzmir-scaled-1.jpg",
+      "bytes": 393964,
+      "bytePolicy": "byte-identical",
+      "width": 2560,
+      "height": 1303,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 130,
+      "url": "https://abdi.info/wp-content/uploads/2020/09/Jax2020_OliverAzmir-scaled-1.jpg",
+      "attachedFile": "2020/09/Jax2020_OliverAzmir-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/09/Jax2020_OliverAzmir-scaled-1-1024x521.jpg",
+        "2020/09/Jax2020_OliverAzmir-scaled-1-1200x611.jpg",
+        "2020/09/Jax2020_OliverAzmir-scaled-1-150x150.jpg",
+        "2020/09/Jax2020_OliverAzmir-scaled-1-1536x782.jpg",
+        "2020/09/Jax2020_OliverAzmir-scaled-1-1980x1008.jpg",
+        "2020/09/Jax2020_OliverAzmir-scaled-1-2048x1042.jpg",
+        "2020/09/Jax2020_OliverAzmir-scaled-1-300x153.jpg",
+        "2020/09/Jax2020_OliverAzmir-scaled-1-768x391.jpg",
+        "2020/09/Jax2020_OliverAzmir-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 132,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/09/Jax2020_OliverAzmir_2-scaled-1.jpg",
+      "storedPath": "2020/09/Jax2020_OliverAzmir_2-scaled-1.jpg",
+      "bytes": 294913,
+      "bytePolicy": "byte-identical",
+      "width": 2560,
+      "height": 1117,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 130,
+      "url": "https://abdi.info/wp-content/uploads/2020/09/Jax2020_OliverAzmir_2-scaled-1.jpg",
+      "attachedFile": "2020/09/Jax2020_OliverAzmir_2-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/09/Jax2020_OliverAzmir_2-scaled-1-1024x447.jpg",
+        "2020/09/Jax2020_OliverAzmir_2-scaled-1-1200x524.jpg",
+        "2020/09/Jax2020_OliverAzmir_2-scaled-1-150x150.jpg",
+        "2020/09/Jax2020_OliverAzmir_2-scaled-1-1536x670.jpg",
+        "2020/09/Jax2020_OliverAzmir_2-scaled-1-1980x864.jpg",
+        "2020/09/Jax2020_OliverAzmir_2-scaled-1-2048x894.jpg",
+        "2020/09/Jax2020_OliverAzmir_2-scaled-1-300x131.jpg",
+        "2020/09/Jax2020_OliverAzmir_2-scaled-1-768x335.jpg",
+        "2020/09/Jax2020_OliverAzmir_2-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 136,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/09/20200910_124333-scaled-1.jpg",
+      "storedPath": "2020/09/20200910_124333-scaled-1.jpg",
+      "bytes": 496969,
+      "bytePolicy": "byte-identical",
+      "width": 2560,
+      "height": 1211,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 130,
+      "url": "https://abdi.info/wp-content/uploads/2020/09/20200910_124333-scaled-1.jpg",
+      "attachedFile": "2020/09/20200910_124333-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/09/20200910_124333-scaled-1-1024x484.jpg",
+        "2020/09/20200910_124333-scaled-1-1200x568.jpg",
+        "2020/09/20200910_124333-scaled-1-150x150.jpg",
+        "2020/09/20200910_124333-scaled-1-1536x727.jpg",
+        "2020/09/20200910_124333-scaled-1-1980x937.jpg",
+        "2020/09/20200910_124333-scaled-1-2048x969.jpg",
+        "2020/09/20200910_124333-scaled-1-300x142.jpg",
+        "2020/09/20200910_124333-scaled-1-768x363.jpg",
+        "2020/09/20200910_124333-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 178,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/10/20200908_150210-scaled-1.jpg",
+      "storedPath": "2020/10/20200908_150210-scaled-1.jpg",
+      "bytes": 600751,
+      "bytePolicy": "byte-identical",
+      "width": 2560,
+      "height": 1211,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 0,
+      "url": "https://abdi.info/wp-content/uploads/2020/10/20200908_150210-scaled-1.jpg",
+      "attachedFile": "2020/10/20200908_150210-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/10/20200908_150210-scaled-1-1024x484.jpg",
+        "2020/10/20200908_150210-scaled-1-150x150.jpg",
+        "2020/10/20200908_150210-scaled-1-1536x727.jpg",
+        "2020/10/20200908_150210-scaled-1-200x133.jpg",
+        "2020/10/20200908_150210-scaled-1-2048x969.jpg",
+        "2020/10/20200908_150210-scaled-1-300x142.jpg",
+        "2020/10/20200908_150210-scaled-1-310x250.jpg",
+        "2020/10/20200908_150210-scaled-1-660x312.jpg",
+        "2020/10/20200908_150210-scaled-1-768x363.jpg",
+        "2020/10/20200908_150210-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 179,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/10/20200909_090446-scaled-1.jpg",
+      "storedPath": "2020/10/20200909_090446-scaled-1.jpg",
+      "bytes": 504728,
+      "bytePolicy": "byte-identical",
+      "width": 2560,
+      "height": 1424,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 0,
+      "url": "https://abdi.info/wp-content/uploads/2020/10/20200909_090446-scaled-1.jpg",
+      "attachedFile": "2020/10/20200909_090446-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/10/20200909_090446-scaled-1-1024x570.jpg",
+        "2020/10/20200909_090446-scaled-1-150x150.jpg",
+        "2020/10/20200909_090446-scaled-1-1536x854.jpg",
+        "2020/10/20200909_090446-scaled-1-200x133.jpg",
+        "2020/10/20200909_090446-scaled-1-2048x1139.jpg",
+        "2020/10/20200909_090446-scaled-1-300x167.jpg",
+        "2020/10/20200909_090446-scaled-1-310x250.jpg",
+        "2020/10/20200909_090446-scaled-1-660x367.jpg",
+        "2020/10/20200909_090446-scaled-1-768x427.jpg",
+        "2020/10/20200909_090446-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 180,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/10/20200909_091157-scaled-1.jpg",
+      "storedPath": "2020/10/20200909_091157-scaled-1.jpg",
+      "bytes": 431699,
+      "bytePolicy": "byte-identical",
+      "width": 2560,
+      "height": 1213,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 0,
+      "url": "https://abdi.info/wp-content/uploads/2020/10/20200909_091157-scaled-1.jpg",
+      "attachedFile": "2020/10/20200909_091157-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/10/20200909_091157-scaled-1-1024x485.jpg",
+        "2020/10/20200909_091157-scaled-1-150x150.jpg",
+        "2020/10/20200909_091157-scaled-1-1536x728.jpg",
+        "2020/10/20200909_091157-scaled-1-200x133.jpg",
+        "2020/10/20200909_091157-scaled-1-2048x970.jpg",
+        "2020/10/20200909_091157-scaled-1-300x142.jpg",
+        "2020/10/20200909_091157-scaled-1-310x250.jpg",
+        "2020/10/20200909_091157-scaled-1-660x313.jpg",
+        "2020/10/20200909_091157-scaled-1-768x364.jpg",
+        "2020/10/20200909_091157-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 181,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/10/20200909_142530-scaled-1.jpg",
+      "storedPath": "2020/10/20200909_142530-scaled-1.jpg",
+      "bytes": 478958,
+      "bytePolicy": "byte-identical",
+      "width": 2560,
+      "height": 1213,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 0,
+      "url": "https://abdi.info/wp-content/uploads/2020/10/20200909_142530-scaled-1.jpg",
+      "attachedFile": "2020/10/20200909_142530-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/10/20200909_142530-scaled-1-1024x485.jpg",
+        "2020/10/20200909_142530-scaled-1-150x150.jpg",
+        "2020/10/20200909_142530-scaled-1-1536x728.jpg",
+        "2020/10/20200909_142530-scaled-1-200x133.jpg",
+        "2020/10/20200909_142530-scaled-1-2048x970.jpg",
+        "2020/10/20200909_142530-scaled-1-300x142.jpg",
+        "2020/10/20200909_142530-scaled-1-310x250.jpg",
+        "2020/10/20200909_142530-scaled-1-660x313.jpg",
+        "2020/10/20200909_142530-scaled-1-768x364.jpg",
+        "2020/10/20200909_142530-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 182,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/10/20200910_100906-scaled-1.jpg",
+      "storedPath": "2020/10/20200910_100906-scaled-1.jpg",
+      "bytes": 492108,
+      "bytePolicy": "byte-identical",
+      "width": 1211,
+      "height": 2560,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 0,
+      "url": "https://abdi.info/wp-content/uploads/2020/10/20200910_100906-scaled-1.jpg",
+      "attachedFile": "2020/10/20200910_100906-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/10/20200910_100906-scaled-1-142x300.jpg",
+        "2020/10/20200910_100906-scaled-1-150x150.jpg",
+        "2020/10/20200910_100906-scaled-1-200x133.jpg",
+        "2020/10/20200910_100906-scaled-1-310x250.jpg",
+        "2020/10/20200910_100906-scaled-1-484x1024.jpg",
+        "2020/10/20200910_100906-scaled-1-660x1395.jpg",
+        "2020/10/20200910_100906-scaled-1-727x1536.jpg",
+        "2020/10/20200910_100906-scaled-1-768x1624.jpg",
+        "2020/10/20200910_100906-scaled-1-969x2048.jpg",
+        "2020/10/20200910_100906-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 183,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/10/20200910_124311-scaled-1.jpg",
+      "storedPath": "2020/10/20200910_124311-scaled-1.jpg",
+      "bytes": 437062,
+      "bytePolicy": "byte-identical",
+      "width": 2560,
+      "height": 1211,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 0,
+      "url": "https://abdi.info/wp-content/uploads/2020/10/20200910_124311-scaled-1.jpg",
+      "attachedFile": "2020/10/20200910_124311-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/10/20200910_124311-scaled-1-1024x484.jpg",
+        "2020/10/20200910_124311-scaled-1-150x150.jpg",
+        "2020/10/20200910_124311-scaled-1-1536x727.jpg",
+        "2020/10/20200910_124311-scaled-1-200x133.jpg",
+        "2020/10/20200910_124311-scaled-1-2048x969.jpg",
+        "2020/10/20200910_124311-scaled-1-300x142.jpg",
+        "2020/10/20200910_124311-scaled-1-310x250.jpg",
+        "2020/10/20200910_124311-scaled-1-660x312.jpg",
+        "2020/10/20200910_124311-scaled-1-768x363.jpg",
+        "2020/10/20200910_124311-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 184,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/10/20200910_124333-scaled-1.jpg",
+      "storedPath": "2020/09/20200910_124333-scaled-1.jpg",
+      "bytes": 496969,
+      "bytePolicy": "byte-identical",
+      "width": 2560,
+      "height": 1211,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 0,
+      "url": "https://abdi.info/wp-content/uploads/2020/10/20200910_124333-scaled-1.jpg",
+      "attachedFile": "2020/10/20200910_124333-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/10/20200910_124333-scaled-1-1024x484.jpg",
+        "2020/10/20200910_124333-scaled-1-150x150.jpg",
+        "2020/10/20200910_124333-scaled-1-1536x727.jpg",
+        "2020/10/20200910_124333-scaled-1-200x133.jpg",
+        "2020/10/20200910_124333-scaled-1-2048x969.jpg",
+        "2020/10/20200910_124333-scaled-1-300x142.jpg",
+        "2020/10/20200910_124333-scaled-1-310x250.jpg",
+        "2020/10/20200910_124333-scaled-1-660x312.jpg",
+        "2020/10/20200910_124333-scaled-1-768x363.jpg",
+        "2020/10/20200910_124333-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 185,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/10/20200910_124759-scaled-1.jpg",
+      "storedPath": "2020/10/20200910_124759-scaled-1.jpg",
+      "bytes": 547202,
+      "bytePolicy": "byte-identical",
+      "width": 2560,
+      "height": 1211,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 0,
+      "url": "https://abdi.info/wp-content/uploads/2020/10/20200910_124759-scaled-1.jpg",
+      "attachedFile": "2020/10/20200910_124759-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/10/20200910_124759-scaled-1-1024x484.jpg",
+        "2020/10/20200910_124759-scaled-1-150x150.jpg",
+        "2020/10/20200910_124759-scaled-1-1536x727.jpg",
+        "2020/10/20200910_124759-scaled-1-200x133.jpg",
+        "2020/10/20200910_124759-scaled-1-2048x969.jpg",
+        "2020/10/20200910_124759-scaled-1-300x142.jpg",
+        "2020/10/20200910_124759-scaled-1-310x250.jpg",
+        "2020/10/20200910_124759-scaled-1-660x312.jpg",
+        "2020/10/20200910_124759-scaled-1-768x363.jpg",
+        "2020/10/20200910_124759-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 186,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/10/20200910_124818-scaled-1.jpg",
+      "storedPath": "2020/10/20200910_124818-scaled-1.jpg",
+      "bytes": 479174,
+      "bytePolicy": "byte-identical",
+      "width": 2560,
+      "height": 1211,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 0,
+      "url": "https://abdi.info/wp-content/uploads/2020/10/20200910_124818-scaled-1.jpg",
+      "attachedFile": "2020/10/20200910_124818-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/10/20200910_124818-scaled-1-1024x484.jpg",
+        "2020/10/20200910_124818-scaled-1-150x150.jpg",
+        "2020/10/20200910_124818-scaled-1-1536x727.jpg",
+        "2020/10/20200910_124818-scaled-1-200x133.jpg",
+        "2020/10/20200910_124818-scaled-1-2048x969.jpg",
+        "2020/10/20200910_124818-scaled-1-300x142.jpg",
+        "2020/10/20200910_124818-scaled-1-310x250.jpg",
+        "2020/10/20200910_124818-scaled-1-660x312.jpg",
+        "2020/10/20200910_124818-scaled-1-768x363.jpg",
+        "2020/10/20200910_124818-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 187,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/10/IMG_0186-scaled-1.jpg",
+      "storedPath": "2020/10/IMG_0186-scaled-1.jpg",
+      "bytes": 568438,
+      "bytePolicy": "gps-removed-metadata-stripped",
+      "width": 2560,
+      "height": 1920,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 0,
+      "url": "https://abdi.info/wp-content/uploads/2020/10/IMG_0186-scaled-1.jpg",
+      "attachedFile": "2020/10/IMG_0186-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/10/IMG_0186-scaled-1-1024x768.jpg",
+        "2020/10/IMG_0186-scaled-1-150x150.jpg",
+        "2020/10/IMG_0186-scaled-1-1536x1152.jpg",
+        "2020/10/IMG_0186-scaled-1-200x133.jpg",
+        "2020/10/IMG_0186-scaled-1-2048x1536.jpg",
+        "2020/10/IMG_0186-scaled-1-300x225.jpg",
+        "2020/10/IMG_0186-scaled-1-310x250.jpg",
+        "2020/10/IMG_0186-scaled-1-660x495.jpg",
+        "2020/10/IMG_0186-scaled-1-768x576.jpg",
+        "2020/10/IMG_0186-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 188,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/10/IMG_0189-scaled-1.jpg",
+      "storedPath": "2020/10/IMG_0189-scaled-1.jpg",
+      "bytes": 715838,
+      "bytePolicy": "gps-removed-metadata-stripped",
+      "width": 2560,
+      "height": 1920,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 0,
+      "url": "https://abdi.info/wp-content/uploads/2020/10/IMG_0189-scaled-1.jpg",
+      "attachedFile": "2020/10/IMG_0189-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/10/IMG_0189-scaled-1-1024x768.jpg",
+        "2020/10/IMG_0189-scaled-1-150x150.jpg",
+        "2020/10/IMG_0189-scaled-1-1536x1152.jpg",
+        "2020/10/IMG_0189-scaled-1-200x133.jpg",
+        "2020/10/IMG_0189-scaled-1-2048x1536.jpg",
+        "2020/10/IMG_0189-scaled-1-300x225.jpg",
+        "2020/10/IMG_0189-scaled-1-310x250.jpg",
+        "2020/10/IMG_0189-scaled-1-660x495.jpg",
+        "2020/10/IMG_0189-scaled-1-768x576.jpg",
+        "2020/10/IMG_0189-scaled-1.jpg"
+      ]
+    },
+    {
+      "attachmentId": 189,
+      "status": "explicit-substitute",
+      "substituteReason": "scaled-file-without-original",
+      "sourceKind": "attached_file",
+      "sourceRelativePath": "2020/10/IMG_0198-scaled-1.jpg",
+      "storedPath": "2020/10/IMG_0198-scaled-1.jpg",
+      "bytes": 624393,
+      "bytePolicy": "gps-removed-metadata-stripped",
+      "width": 2560,
+      "height": 1920,
+      "alt": "",
+      "notes": [
+        "The archive contains a WordPress -scaled file and no full original. This file is an explicit substitute."
+      ],
+      "parent": 0,
+      "url": "https://abdi.info/wp-content/uploads/2020/10/IMG_0198-scaled-1.jpg",
+      "attachedFile": "2020/10/IMG_0198-scaled-1.jpg",
+      "legacyUploadPaths": [
+        "2020/10/IMG_0198-scaled-1-1024x768.jpg",
+        "2020/10/IMG_0198-scaled-1-150x150.jpg",
+        "2020/10/IMG_0198-scaled-1-1536x1152.jpg",
+        "2020/10/IMG_0198-scaled-1-200x133.jpg",
+        "2020/10/IMG_0198-scaled-1-2048x1536.jpg",
+        "2020/10/IMG_0198-scaled-1-300x225.jpg",
+        "2020/10/IMG_0198-scaled-1-310x250.jpg",
+        "2020/10/IMG_0198-scaled-1-660x495.jpg",
+        "2020/10/IMG_0198-scaled-1-768x576.jpg",
+        "2020/10/IMG_0198-scaled-1.jpg"
+      ]
+    }
+  ],
+  "missingMedia": [],
+  "largestFiles": [
+    {
+      "path": "2020/12/DSC_3384.jpg",
+      "bytes": 2497148,
+      "status": "original"
+    },
+    {
+      "path": "2025/03/DCA.png",
+      "bytes": 2064339,
+      "status": "original"
+    },
+    {
+      "path": "2022/05/20220503_085740.jpg",
+      "bytes": 1951937,
+      "status": "original"
+    },
+    {
+      "path": "2022/05/20220503_085740.jpg",
+      "bytes": 1951937,
+      "status": "original"
+    },
+    {
+      "path": "2022/05/20220504_085914.jpg",
+      "bytes": 1846347,
+      "status": "original"
+    },
+    {
+      "path": "2022/05/20220504_085914.jpg",
+      "bytes": 1846347,
+      "status": "original"
+    },
+    {
+      "path": "2022/05/20220503_082626.jpg",
+      "bytes": 1683938,
+      "status": "original"
+    },
+    {
+      "path": "2022/05/20220503_082626.jpg",
+      "bytes": 1683938,
+      "status": "original"
+    }
+  ],
+  "unresolvedImagesInBody": [],
+  "written": [
+    "src/content/posts/de/2022-05-04-jax2022.md",
+    "src/content/posts/de/2025-06-11-endlich-beachtet-jemand-die-details-in-meiner-architektur-doku.md"
+  ],
+  "skipped": [
+    {
+      "path": "src/content/posts/de/2018-07-22-die-ordnung-ueber-den-haufen-werfen.md",
+      "reason": "unchanged"
+    },
+    {
+      "path": "src/content/legal/de/datenschutzerklaerung.json",
+      "reason": "unchanged"
+    },
+    {
+      "path": "src/content/legal/de/impressum.json",
+      "reason": "unchanged"
+    },
+    {
+      "path": "src/content/posts/de/2018-11-28-vortrag-ueber-reverse-bpm.md",
+      "reason": "unchanged"
+    },
+    {
+      "path": "src/content/posts/de/2019-07-02-vortrag-ueber-bdd-mit-cucumber.md",
+      "reason": "unchanged"
+    },
+    {
+      "path": "src/content/posts/de/2019-08-14-rc1-pattern-optmist-vs-pessimist.md",
+      "reason": "unchanged"
+    },
+    {
+      "path": "src/content/posts/de/2019-05-15-asyncapi.md",
+      "reason": "unchanged"
+    },
+    {
+      "path": "src/content/posts/de/2020-09-10-zwei-vortraege-auf-der-hybrid-jax-konferenz.md",
+      "reason": "unchanged"
+    },
+    {
+      "path": "src/content/posts/de/2017-09-09-hello-world.md",
+      "reason": "unchanged"
+    },
+    {
+      "path": "src/content/pages/de/about-me.md",
+      "reason": "unchanged"
+    },
+    {
+      "path": "src/content/posts/de/2022-05-26-it-der-unterschiedlichen-geschwindigkeiten.md",
+      "reason": "unchanged"
+    },
+    {
+      "path": "src/content/posts/de/2022-11-27-wie-die-cd-pipeline-mit-cdc-und-bdd-die-e2e-tests-abloest.md",
+      "reason": "unchanged"
+    },
+    {
+      "path": "src/content/posts/de/2022-11-27-neue-programmiersprache-ubiquitous-ein-domain-driven-design-ddd-projekt-erfahrungsbericht.md",
+      "reason": "unchanged"
+    },
+    {
+      "path": "src/content/posts/de/2025-03-01-datenzentrierte-architektur.md",
+      "reason": "unchanged"
+    },
+    {
+      "path": "src/content/posts/de/2025-03-11-wir-haben-devbizops-und-devsecops-jetzt-ist-es-zeit-fuer-devdataops.md",
+      "reason": "unchanged"
+    },
+    {
+      "path": "src/content/posts/de/2025-05-26-wir-wissen-gar-nicht-wo-wir-anfangen-sollen.md",
+      "reason": "unchanged"
+    }
+  ],
+  "comments": "Five comments in the export are unapproved or trash spam. None are published.",
+  "otherSitesInUploadZip": "uploads/sites/3 and uploads/sites/4 are not referenced by this WXR and were not imported.",
+  "unusedTags": [
+    "openap"
+  ],
+  "openapNote": "The tag openap exists in the export and is used by no post. It was not merged into openapi."
+}

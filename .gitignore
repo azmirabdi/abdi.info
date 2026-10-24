@@ -1,0 +1,11 @@
+.wordpress_backup/
+.migration-work/
+__pycache__/
+.DS_Store
+node_modules/
+dist/
+.wrangler/
+.astro/
+.env
+.env.*
+!.env.example

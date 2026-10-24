@@ -1,0 +1,26 @@
+---
+import Base from "../../../layouts/Base.astro";
+import PostList from "../../../components/PostList.astro";
+import { ui } from "../../../i18n.ts";
+import { archivePath, categoryName, categoryPath, publicPosts } from "../../../lib/content.ts";
+
+export async function getStaticPaths() {
+  const posts = await publicPosts("de");
+  const ids = [...new Set(posts.flatMap((post) => post.data.categories))];
+  return ids.map((category) => ({
+    params: { category },
+    props: { category, posts: posts.filter((post) => post.data.categories.includes(category)) },
+  }));
+}
+const { category, posts } = Astro.props;
+const name = categoryName(category, "de");
+---
+<Base lang="de" title={name} description={`${ui.de.categories}: ${name}`} path={categoryPath(category, "de")} alternatePath={`/en/archive/category/${category}/`}>
+  <section class="shell page-start">
+    <div class="home-column">
+      <p class="kicker"><a href={archivePath("de")}>{ui.de.navArchive}</a></p>
+      <h1>{name}</h1>
+      <PostList posts={posts} lang="de" />
+    </div>
+  </section>
+</Base>

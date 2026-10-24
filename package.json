@@ -1,0 +1,30 @@
+{
+  "name": "abdi-info",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "engines": {
+    "node": ">=24.19.0 <25",
+    "pnpm": "11.25.0"
+  },
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "astro build && node scripts/copy-media.mjs",
+    "preview": "astro preview --host 127.0.0.1",
+    "preview:cf": "wrangler dev",
+    "check": "astro check && node scripts/check-migration.mjs",
+    "import:wordpress": "python3 scripts/import_wordpress.py",
+    "new:article": "node scripts/new-article.mjs"
+  },
+  "dependencies": {
+    "@astrojs/rss": "^4.0.19",
+    "@fontsource-variable/newsreader": "^5.3.0",
+    "@fontsource-variable/source-sans-3": "^5.3.1",
+    "astro": "^7.4.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.12",
+    "typescript": "^5.9.3",
+    "wrangler": "^4.152.0"
+  }
+}
