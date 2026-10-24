@@ -4,6 +4,10 @@
   "main": "./src/worker/index.ts",
   "compatibility_date": "2026-10-24",
   "workers_dev": true,
+  "routes": [
+    { "pattern": "abdi.info/*", "zone_name": "abdi.info" },
+    { "pattern": "www.abdi.info/*", "zone_name": "abdi.info" }
+  ],
   "observability": {
     "enabled": true,
     "traces": { "enabled": true }
