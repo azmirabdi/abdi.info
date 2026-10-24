@@ -92,9 +92,9 @@ Liest den WXR und `.migration-work/uploads-full`. Schreibt die Quellen nicht um.
 
 ## Deployment
 
-Secrets in GitHub: `CLOUDFLARE_API_TOKEN` und `CLOUDFLARE_ACCOUNT_ID`. Der Workflow `.github/workflows/ci.yml` prüft Pull Requests und Pushes. `wrangler deploy` läuft bei Push auf `main` und bei `workflow_dispatch`. Es gibt keine Route für `abdi.info`. Ein Deploy landet auf `workers.dev` und bleibt `noindex`.
+Secrets in GitHub: `CLOUDFLARE_API_TOKEN` und `CLOUDFLARE_ACCOUNT_ID`. Der Workflow `.github/workflows/ci.yml` prüft Pull Requests und Pushes. `wrangler deploy` läuft bei Push auf `main` und bei `workflow_dispatch`. `workers.dev` bleibt `noindex`.
 
-Domain erst nach Freigabe: in `wrangler.jsonc` eine Route oder Custom Domain für `abdi.info` und `www.abdi.info` ergänzen, DNS beim Registrar auf Cloudflare zeigen lassen, Zertifikat abwarten, `https://abdi.info/?p=8` und eine unbekannte URL mit `curl -I` prüfen. Bis dahin zeigt die Domain weiter auf die Synology.
+`abdi.info/*` und `www.abdi.info/*` sind Worker-Routen. Cloudflare ruft dafür den Worker auf, bevor der Tunnel „AbdiNAS Tunnel“ die Anfrage an die Synology gibt. Der Tunnel und die DNS-Einträge bleiben. `www` leitet auf die Apex-Domain um. Zurück zur bisherigen Website: die beiden Routen aus `wrangler.jsonc` entfernen und neu deployen. WordPress nicht deinstallieren.
 
 Zurück zur bisherigen Website: die Worker-Route entfernen oder das DNS auf den bisherigen Synology-Eintrag stellen. WordPress nicht deinstallieren. Dieses Repository löscht nichts auf der NAS. Die Exporte bleiben in `.wordpress_backup/`.
 
