@@ -102,6 +102,8 @@ Redirects pflegen: Pfade in `scripts/import_wordpress.py` erzeugen, oder einen e
 
 ## Abhängigkeiten
 
+Dependabot öffnet montags Pull Requests für npm-Pakete, pnpm-Lockfile und GitHub-Actions. Für diese PRs schaltet `.github/workflows/dependabot-auto-merge.yml` das automatische Mergen ein. GitHub mergt erst, wenn die Prüfung `check` auf dem aktuellen `main` grün ist. Andere Pull Requests bleiben liegen. Node und die pnpm-Version in `package.json` bleiben fest.
+
 ```sh
 nvm use
 pnpm update --interactive
