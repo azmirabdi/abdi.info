@@ -10,7 +10,7 @@ translationKey: "struktur-gegen-chaos-2025"
 provenance: "translation"
 translationStatus: "reviewed"
 needsReview: false
-draft: true
+draft: false
 author: "Azmir Abdi"
 slug: "struktur-gegen-chaos-warum-datenarchitektur-ueber-leben-und-tod-entscheiden-kann"
 legacyPath: "/blog/2025/struktur-gegen-chaos-warum-datenarchitektur-ueber-leben-und-tod-entscheiden-kann/"
@@ -19,6 +19,7 @@ tags:
   - "dca"
   - "datengetrieben"
   - "dantenzentrisch"
+  - "artikel"
 categories:
   - "dca"
   - "ai"
