@@ -22,8 +22,8 @@ tags:
 categories:
   - "dca"
   - "ai"
-heroImage: ""
-heroAlt: ""
+heroImage: "/src/assets/media/2025/10/struktur-gegen-chaos-titel.png"
+heroAlt: "Loose pages and fragments of code on the left, a lit grid on the right."
 editorialRevision: false
 ---
 
