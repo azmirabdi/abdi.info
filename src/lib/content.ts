@@ -118,9 +118,11 @@ export function relatedPosts(current: Post, pool: Post[], limit = 3): Post[] {
 
 export async function translationOf(entry: { data: { translationKey: string; lang: Lang } }): Promise<Post | Page | undefined> {
   const target = entry.data.lang === "de" ? "en" : "de";
-  const post = (await getCollection("posts")).find(
-    (item) => item.data.translationKey === entry.data.translationKey && item.data.lang === target && !item.data.draft,
+  const postMatches = (await getCollection("posts")).filter(
+    (item) => item.data.translationKey === entry.data.translationKey && item.data.lang === target,
   );
+  const post = postMatches.find((item) => !item.data.draft)
+    ?? (import.meta.env.DEV ? postMatches.find((item) => item.data.draft) : undefined);
   if (post) return post;
   return (await getCollection("pages")).find(
     (item) => item.data.translationKey === entry.data.translationKey && item.data.lang === target && !item.data.draft,
