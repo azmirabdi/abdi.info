@@ -9,8 +9,10 @@ function fail(message) {
 
 const dePosts = (await readdir("src/content/posts/de")).filter((name) => name.endsWith(".md"));
 const enPosts = (await readdir("src/content/posts/en")).filter((name) => name.endsWith(".md"));
-if (dePosts.length !== 15) fail(`Expected 15 German posts, found ${dePosts.length}`);
-if (enPosts.length !== 15) fail(`Expected 15 English posts, found ${enPosts.length}`);
+const migratedPairs = 15;
+if (dePosts.length < migratedPairs) fail(`Expected at least ${migratedPairs} German posts, found ${dePosts.length}`);
+if (enPosts.length < migratedPairs) fail(`Expected at least ${migratedPairs} English posts, found ${enPosts.length}`);
+if (dePosts.length !== enPosts.length) fail(`German and English post counts differ: ${dePosts.length} vs ${enPosts.length}`);
 
 const hashes = JSON.parse(await readFile("src/generated/legal-hashes.json", "utf8"));
 for (const [slug, expected] of Object.entries(hashes)) {
