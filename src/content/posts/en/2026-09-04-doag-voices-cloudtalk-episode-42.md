@@ -16,11 +16,11 @@ slug: "doag-voices-cloudtalk-episode-42"
 legacyPath: "/en/blog/2026/doag-voices-cloudtalk-episode-42/"
 year: 2026
 tags:
-  - "vortrag"
+  - "podcast"
   - "datengetrieben"
   - "dca"
 categories:
-  - "talk"
+  - "podcast"
   - "ai"
 heroImage: "/src/assets/media/2026/09/doag-voices-cloudtalk-folge-42.jpg"
 heroAlt: "DOAG Voices CloudTalk graphic. A portrait in a cap on the left, Azmir Abdi on the right, an orange sphere with a waveform in the centre. Below, CloudTalk, 100 percent cloud computing."
