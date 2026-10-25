@@ -113,6 +113,12 @@
       "nameEn": "OpenAPI"
     },
     {
+      "id": "podcast",
+      "nameDe": "Podcast",
+      "used": true,
+      "nameEn": "Podcast"
+    },
+    {
       "id": "rbpm",
       "wpTermId": 7,
       "nameDe": "rBPM",
@@ -211,6 +217,12 @@
       "nameDe": "Microservices",
       "used": true,
       "nameEn": "Microservices"
+    },
+    {
+      "id": "podcast",
+      "nameDe": "Podcast",
+      "used": true,
+      "nameEn": "Podcast"
     },
     {
       "id": "talk",
