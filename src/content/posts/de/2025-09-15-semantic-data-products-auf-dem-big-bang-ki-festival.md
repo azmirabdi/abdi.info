@@ -10,7 +10,7 @@ translationKey: "big-bang-ki-festival-2025-semantic-data-products"
 provenance: "original"
 translationStatus: "original"
 needsReview: false
-draft: true
+draft: false
 author: "Azmir Abdi"
 slug: "semantic-data-products-auf-dem-big-bang-ki-festival"
 legacyPath: "/blog/2025/semantic-data-products-auf-dem-big-bang-ki-festival/"
