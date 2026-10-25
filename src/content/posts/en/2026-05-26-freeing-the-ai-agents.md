@@ -10,7 +10,7 @@ translationKey: "cloudland-2026-befreiung-der-ki-agenten"
 provenance: "translation"
 translationStatus: "translated-unreviewed"
 needsReview: true
-draft: true
+draft: false
 author: "Azmir Abdi"
 slug: "freeing-the-ai-agents"
 legacyPath: "/en/blog/2026/freeing-the-ai-agents/"
