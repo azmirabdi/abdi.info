@@ -10,7 +10,7 @@ translationKey: "cloudland-2026-befreiung-der-ki-agenten"
 provenance: "original"
 translationStatus: "original"
 needsReview: false
-draft: true
+draft: false
 author: "Azmir Abdi"
 slug: "die-befreiung-der-ki-agenten"
 legacyPath: "/blog/2026/die-befreiung-der-ki-agenten/"
