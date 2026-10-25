@@ -2,7 +2,7 @@
 
 Statischer Blog, migriert aus WordPress. Die Website und der Build hängen nicht mehr an WordPress, seiner API oder der Synology. Neuer Inhalt sind Dateien in diesem Repository.
 
-Für eine spätere Sitzung: Branch `migrate/astro-blog`, Stand der Migration in `docs/migration-report.md`, Arbeitsregeln in `AGENTS.md`. `.wordpress_backup/` und `.migration-work/` sind gitignoriert und dürfen nicht veröffentlicht werden. Es ist noch nichts committet. DNS ist nicht umgestellt.
+Für eine spätere Sitzung: Branch `migrate/astro-blog`, Stand der Migration in `docs/migration-report.md`, Arbeitsregeln in `AGENTS.md`. `.wordpress_backup/` und `.migration-work/` sind gitignoriert und dürfen nicht veröffentlicht werden. `.talks/` liegt lokal im Repository, ist nicht ignoriert und darf nicht mitcommitted werden: Folien, Notizen und Fotos der Konferenzbeiträge. Veröffentlicht wird nur das eine Bild, das ein Artikel unter `src/assets/media/` referenziert. DNS ist nicht umgestellt.
 
 ## Architektur
 
@@ -56,7 +56,7 @@ pnpm preview:cf   # wrangler dev, inklusive Worker-Redirects und echtem 404
 pnpm new:article mein-schluessel "Deutscher Titel" "English title"
 ```
 
-Das legt zwei Entwürfe an, verknüpft über `translationKey`. `draft` bleibt `true`, bis die Veröffentlichung ausdrücklich beauftragt ist. Entwürfe fehlen in Sitemap, RSS, Suche, Themen und Produktion.
+Das legt zwei Entwürfe an, verknüpft über `translationKey`. `draft` bleibt `true`, bis die Veröffentlichung ausdrücklich beauftragt ist. Entwürfe fehlen in Sitemap, RSS, Suche, Themen und Produktion. Im Dev-Server sind sie unter ihrer Beitrags-URL erreichbar, und der Sprachwechsel verbindet dort auch zwei Entwürfe. `scripts/check-migration.mjs` verlangt mindestens die 15 migrierten Paare und gleich viele deutsche und englische Dateien. Ein rückdatierter Beitrag trägt das historische Datum im Dateinamen. `pnpm new:article` setzt dagegen das heutige Datum.
 
 Felder, die der Generator setzt und die das Schema verlangt: `title`, `description`, `pubDate`, `lang`, `originalLang`, `translationKey`, `slug`, `legacyPath`, `year`. Ohne optionales Bild bleibt `heroImage` leer und die Seite zeigt keins. Ohne Tags bleibt die Liste leer. `updatedDate` wird nur angezeigt, wenn es nach `pubDate` liegt.
 

@@ -1,10 +1,10 @@
 ---
 import ArticleView from "../../../../components/ArticleView.astro";
-import { publicPosts } from "../../../../lib/content.ts";
+import { posts } from "../../../../lib/content.ts";
 
 export async function getStaticPaths() {
-  const posts = await publicPosts("en");
-  return posts.map((post) => ({
+  const entries = await posts("en");
+  return entries.map((post) => ({
     params: { year: String(post.data.year), slug: post.data.slug },
     props: { post },
   }));
