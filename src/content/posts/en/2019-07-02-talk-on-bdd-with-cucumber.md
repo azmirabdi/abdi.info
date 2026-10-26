@@ -3,7 +3,7 @@ title: "A talk on BDD with Cucumber"
 description: "A talk on behaviour-driven development at the Agile Testing conference in Munich, with the architecture of the test project itself in view."
 descriptionSource: "written"
 pubDate: "2019-07-02"
-updatedDate: "2021-12-01"
+updatedDate: "2026-10-26"
 lang: "en"
 originalLang: "de"
 translationKey: "wp-75"
@@ -23,7 +23,7 @@ categories:
   - "talk"
 heroImage: "/src/assets/media/2020/06/Vortrag_ueber_BDD_mit_Cucumber.jpg"
 heroAlt: ""
-editorialRevision: false
+editorialRevision: true
 ---
 
 `Testing at the centre of the approach, with BDD`
@@ -49,6 +49,6 @@ The PDF slides published at Agile Async can be found here: [https://www.embedded
 Thanks for your time. Warm regards,
 [Azmir Abdi](/en/about/)
 
-PS: A comment or an [email](mailto:azmir@abdi.info) would make me glad.
+PS: I'd be glad to hear from you via [a message](/en/about/#contact).
 
 ![](../../../assets/media/2019/05/IMG_9938-1-scaled-e1591474640407-crop.jpg)

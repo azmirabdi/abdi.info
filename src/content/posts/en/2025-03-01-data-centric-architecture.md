@@ -3,7 +3,7 @@ title: "Data-centric architecture: the key to digital sovereignty"
 description: "After SOA, microservices, and more digitalisation, complexity is no longer cheap to control. A data-centric architecture keeps data in the organisation’s own hands."
 descriptionSource: "written"
 pubDate: "2025-03-01"
-updatedDate: "2025-03-11"
+updatedDate: "2026-10-26"
 lang: "en"
 originalLang: "de"
 translationKey: "wp-285"
@@ -24,7 +24,7 @@ categories:
   - "dca"
 heroImage: "/src/assets/media/2025/03/DCA.png"
 heroAlt: ""
-editorialRevision: false
+editorialRevision: true
 ---
 
 IT has advanced far enough that even traditional organisations can align their business models consistently around data. But this is about more than digitalisation. It is about simplifying the digital flow of data, and orchestrating it centrally, so that it produces as much business value as it can:
@@ -66,4 +66,4 @@ While core IT processes have so far been built individually, a data-centric arch
 
 Standardising data creates a new category of buy-products that can be integrated directly into the organisation’s own platform, without giving away control of valuable company data. Knowledge and data stay inside. AI becomes usable natively. The data-driven shift becomes real.
 
-**If you want to know how this works, contact me.**
+**If you want to know how this works, [contact me](/en/about/#contact).**

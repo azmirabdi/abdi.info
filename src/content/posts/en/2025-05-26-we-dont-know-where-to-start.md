@@ -3,7 +3,7 @@ title: "“We don’t even know where to start …”"
 description: "A bottom-up transformation toward a data-driven organisation rarely works on its own. A top-down strategy is not enough either. A small prototype can make the willingness visible."
 descriptionSource: "written"
 pubDate: "2025-05-26"
-updatedDate: "2025-05-26"
+updatedDate: "2026-10-26"
 lang: "en"
 originalLang: "de"
 translationKey: "wp-294"
@@ -26,7 +26,7 @@ categories:
   - "dca"
 heroImage: "/src/assets/media/2025/05/Slide1-1.png"
 heroAlt: "\"Understand your Data. Shape your Future.\" A. Abdi"
-editorialRevision: false
+editorialRevision: true
 ---
 
 In conversations with clients about IT architectures for a data-driven organisation, I often hear sentences like these:
@@ -96,4 +96,4 @@ Because later, nobody should be able to claim **that it was IT’s fault** if we
 Stay with it. We have a chance to **set up an outdated IT location anew.**
 And that can be done **step by step, with an eye on cost, and with a long view.**
 
-If you want to know more, **contact me.**
+If you want to know more, **[contact me](/en/about/#contact).**

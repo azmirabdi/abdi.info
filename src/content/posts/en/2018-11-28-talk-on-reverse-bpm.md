@@ -3,7 +3,7 @@ title: "A talk on reverse BPM"
 description: "A talk on a reverse-engineering concept for BPM at the Hochschule für Technik Stuttgart, in a lecture by Dr Oliver Höß."
 descriptionSource: "written"
 pubDate: "2018-11-28"
-updatedDate: "2021-12-01"
+updatedDate: "2026-10-26"
 lang: "en"
 originalLang: "de"
 translationKey: "wp-71"
@@ -21,7 +21,7 @@ categories:
   - "talk"
 heroImage: "/src/assets/media/2020/06/Vortrag_ueber_Reverse_BPM.png"
 heroAlt: ""
-editorialRevision: false
+editorialRevision: true
 ---
 
 `Reverse engineering and BPM`
@@ -35,4 +35,4 @@ The page for the talk is here: [https://innovative-trends.de/2018/11/26/orchestr
 Thanks for your time. Warm regards,
 [Azmir Abdi](/en/about/)
 
-PS: A comment or an [email](mailto:azmir@abdi.info) would make me glad.
+PS: I'd be glad to hear from you via [a message](/en/about/#contact).

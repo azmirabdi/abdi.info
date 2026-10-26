@@ -3,7 +3,7 @@ title: "Jekyll instead of WordPress"
 description: "Why this blog started on Jekyll: no database, static pages, and a comment experiment with Staticman that later led back to WordPress."
 descriptionSource: "written"
 pubDate: "2017-09-09"
-updatedDate: "2021-12-01"
+updatedDate: "2026-10-26"
 lang: "en"
 originalLang: "de"
 translationKey: "wp-151"
@@ -21,7 +21,7 @@ categories:
   - "blog"
 heroImage: ""
 heroAlt: ""
-editorialRevision: false
+editorialRevision: true
 ---
 
 `In the beginning was the idea … and because the idea was so "innovative", it found its creation in cyberspace.`
@@ -91,4 +91,4 @@ A field report on Staticman: it was not entirely positive. Some comments were no
 The original article, whose Jekyll-generated content can be seen on GitHub Pages, is here: [https://azabdi.github.io/](https://azabdi.github.io/). Thanks for your time. Warm regards,
 [Azmir Abdi](/en/about/)
 
-PS: A comment or an [email](mailto:azmir@abdi.info) would make me glad.
+PS: I'd be glad to hear from you via [a message](/en/about/#contact).

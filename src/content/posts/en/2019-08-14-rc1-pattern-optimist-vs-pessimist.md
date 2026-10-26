@@ -3,7 +3,7 @@ title: "The rc1 pattern: optimist versus pessimist"
 description: "An optimistic developer initialises a process as successful. The cheaper habit can become an expensive anomaly once an unexpected event never sets the failure state."
 descriptionSource: "written"
 pubDate: "2019-08-14"
-updatedDate: "2021-12-19"
+updatedDate: "2026-10-26"
 lang: "en"
 originalLang: "de"
 translationKey: "wp-83"
@@ -23,7 +23,7 @@ categories:
   - "coding-patterns"
 heroImage: "/src/assets/media/2020/06/20200105_104406-e1591303615592-crop.jpg"
 heroAlt: ""
-editorialRevision: false
+editorialRevision: true
 ---
 
 The German title spells it “Optmist”. That spelling is kept on the original page. Here the word is written as “optimist”.
@@ -74,4 +74,4 @@ That is why **rc1** seems to me an easy name to remember for this behaviour. I h
 Thanks for your time. Warm regards,
 [Azmir Abdi](/en/about/)
 
-PS: A comment or an [email](mailto:azmir@abdi.info) would make me glad.
+PS: I'd be glad to hear from you via [a message](/en/about/#contact).

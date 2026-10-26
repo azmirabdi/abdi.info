@@ -3,11 +3,11 @@ title: "Zwei Vorträge auf der Hybrid Jax Konferenz"
 description: "Sehr ungewöhnliche drei Jax [[1]](https://jax.de/mainz/) Tage. Einer Konferenz, auf der es normalerweise von IT-interessierten Teilnehmern nur so wimmelt. Wo das Check-In und die…"
 descriptionSource: "derived-lead"
 pubDate: "2020-09-10"
-updatedDate: "2021-12-01"
+updatedDate: "2026-10-26"
 lang: "de"
 originalLang: "de"
 translationKey: "wp-130"
-provenance: "original"
+provenance: "revision"
 translationStatus: "original"
 needsReview: false
 draft: false
@@ -27,7 +27,7 @@ heroImage: "/src/assets/media/2020/09/Jax2020_OliverAzmir_2-scaled-1.jpg"
 heroAlt: ""
 wpContentHash: "c2b4d75b875b8ca6a02dcac67c167d3cfb101872380d2262ed7b6bb9a11cc00a"
 bodyHash: "b05124801194e1b753c7c0cf70f712e263f838bf88d62e6be8cb6193eafcabb9"
-editorialRevision: false
+editorialRevision: true
 ---
 
 Sehr ungewöhnliche drei Jax [[1]](https://jax.de/mainz/) Tage. Einer Konferenz, auf der es normalerweise von IT-interessierten Teilnehmern nur so wimmelt. Wo das Check-In und die Garderobe gewöhnlich bis zu einer Stunde brauchen können. Dass so eine Veranstaltung auch in der Pandemiezeit stattfinden kann, ist auch ungewöhnlich. Der Veranstalter Software & Support Media GmbH [2] hat einen Strauß an Maßnahmen zusammengestellt, um dies möglich zu machen. Die gesamte Konferenz wurde als Hybrid-Konferenz aufgebaut, mit der Möglichkeit der präsenz- oder online-Teilnahme. Eine professionelle Video-Streaming-Mannschaft, die gewöhnlich (mal wieder gewöhnlich) Großkonzerte begleitet, überträgt alle Sessions, die parallel in acht unterschiedlichen Räumen verteilt an drei Locations gleichzeitig stattfinden. Über die online Plattform SwapCard [3] begleiten die online-Teilnehmer die Sessions als Stream und können per Chat an der Diskussionen teilnehmen. Die Präsenzteilnehmer bleiben jeweils für einen Vor- oder Nachmittag in derselben Gruppe in einem Raum. Gesichtsmasken, Abstand und Hygiene, wie aktuell üblich, sind bei der Bewegung durch die Räumlichkeiten vorgeschrieben.
@@ -41,7 +41,7 @@ Insgesamt verlief diese Hybrid-Konferenz für das erste Mal mit überraschend we
 Vielen Dank für Deine Zeit und liebe Grüße,
 [Azmir Abdi](/about-me/)
 
-PS: Ich würde mich über einen Kommentar oder eine [Email](mailto:azmir@abdi.info) sehr freuen.
+PS: Ich freue mich über eine [Nachricht](/about-me/#kontakt).
 
 - ![](../../../assets/media/2020/10/IMG_0186-scaled-1.jpg)
 - ![](../../../assets/media/2020/09/20200910_124333-scaled-1.jpg)

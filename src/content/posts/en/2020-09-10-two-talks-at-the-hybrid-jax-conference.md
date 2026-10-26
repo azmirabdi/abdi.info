@@ -3,7 +3,7 @@ title: "Two talks at the hybrid JAX conference"
 description: "Three unusual JAX days in the pandemic: a hybrid conference, two talks on microservice integration tests and on business processes, and fewer technical mishaps than expected."
 descriptionSource: "written"
 pubDate: "2020-09-10"
-updatedDate: "2021-12-01"
+updatedDate: "2026-10-26"
 lang: "en"
 originalLang: "de"
 translationKey: "wp-130"
@@ -24,7 +24,7 @@ categories:
   - "talk"
 heroImage: "/src/assets/media/2020/09/Jax2020_OliverAzmir_2-scaled-1.jpg"
 heroAlt: ""
-editorialRevision: false
+editorialRevision: true
 ---
 
 Three very unusual JAX [[1]](https://jax.de/mainz/) days. A conference that is usually thick with people who care about IT, where check-in and the cloakroom can take up to an hour. That such an event could take place during the pandemic was unusual too. The organiser, Software & Support Media GmbH [2], put together a bundle of measures to make it possible. The whole conference was built as a hybrid: you could attend in the room or online. A professional video-streaming crew, the sort that usually (there is that “usually” again) accompanies large concerts, transmitted every session. The sessions ran in parallel in eight rooms, spread across three locations at the same time. Through the online platform Swapcard [3], online participants followed the sessions as a stream and could join the discussion in chat. People in the room stayed with the same group, in the same room, for a morning or an afternoon. Masks, distance, and hygiene, as was usual then, were required when moving through the building.
@@ -38,7 +38,7 @@ Overall, this hybrid conference ran, for a first time, with surprisingly few tec
 Thanks for your time. Warm regards,
 [Azmir Abdi](/en/about/)
 
-PS: A comment or an [email](mailto:azmir@abdi.info) would make me glad.
+PS: I'd be glad to hear from you via [a message](/en/about/#contact).
 
 - ![](../../../assets/media/2020/10/IMG_0186-scaled-1.jpg)
 - ![](../../../assets/media/2020/09/20200910_124333-scaled-1.jpg)

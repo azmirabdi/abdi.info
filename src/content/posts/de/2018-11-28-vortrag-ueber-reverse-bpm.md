@@ -3,11 +3,11 @@ title: "Vortrag über Reverse BPM"
 description: "`Reverse Engineering und BPM` Es war mir sehr große Freude an der Hochschule für Technik in Stuttgart (HfT) innerhalb der Vorlesung von Herrn Dr. Oliver Höß einen Vortrag über…"
 descriptionSource: "derived-lead"
 pubDate: "2018-11-28"
-updatedDate: "2021-12-01"
+updatedDate: "2026-10-26"
 lang: "de"
 originalLang: "de"
 translationKey: "wp-71"
-provenance: "original"
+provenance: "revision"
 translationStatus: "original"
 needsReview: false
 draft: false
@@ -24,7 +24,7 @@ heroImage: "/src/assets/media/2020/06/Vortrag_ueber_Reverse_BPM.png"
 heroAlt: ""
 wpContentHash: "a0ce3fc39e63f83ef7c70b5d807e0c32fb1f92b16f83713974a3f10900c51217"
 bodyHash: "f270d93642c6c6293913cec337f76655e7d9e504e11a3bea0e8647d1ffe2ce84"
-editorialRevision: false
+editorialRevision: true
 ---
 
 `Reverse Engineering und BPM`
@@ -38,4 +38,4 @@ Die Seite des Vortrags findet ihr hinter der folgenden Adresse: [https://innovat
 Vielen Dank für Deine Zeit und viele Grüße,
 [Azmir Abdi](/about-me/)
 
-PS: Ich würde mich über einen Kommentar oder eine [Email](mailto:azmir@abdi.info) sehr freuen.
+PS: Ich freue mich über eine [Nachricht](/about-me/#kontakt).

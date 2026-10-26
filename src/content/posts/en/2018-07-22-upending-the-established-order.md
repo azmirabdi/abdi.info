@@ -3,7 +3,7 @@ title: "Upending the established order?"
 description: "Does classical business process management contradict a microservice architecture? This article asks what a BPM system would have to look like if it followed that approach, and calls the result rBPM."
 descriptionSource: "written"
 pubDate: "2018-07-22"
-updatedDate: "2021-12-01"
+updatedDate: "2026-10-26"
 lang: "en"
 originalLang: "de"
 translationKey: "wp-8"
@@ -28,7 +28,7 @@ categories:
   - "microservices"
 heroImage: "/src/assets/media/2018/07/002_rBPM_01.jpg"
 heroAlt: "Die Ordnung über den Haufen werfen?"
-editorialRevision: false
+editorialRevision: true
 ---
 
 #### Does classical business process management (BPM) contradict an IT architecture built on the microservice approach? A correct microservice approach allows no central, enterprise-wide process-control component. This article describes what a correct implementation of BPM systems along the microservice approach would have to look like, and analyses the effects of that fusion of opposites.
@@ -143,4 +143,4 @@ In testing, automated execution of the tests would not be possible without exten
 Thanks for your time. Warm regards,
 [Azmir Abdi](/en/about/)
 
-PS: A comment or an [email](mailto:azmir@abdi.info) would make me glad.
+PS: I'd be glad to hear from you via [a message](/en/about/#contact).
