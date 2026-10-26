@@ -3,11 +3,11 @@ title: "Datenzentrierte Architektur: Der Schlüssel zur digitalen Souveränität
 description: "Die IT-Technologie ist heute so weit fortgeschritten, dass selbst traditionelle Unternehmen ihre Geschäftsmodelle konsequent datengetrieben ausrichten können. Doch es geht um mehr…"
 descriptionSource: "derived-lead"
 pubDate: "2025-03-01"
-updatedDate: "2025-03-11"
+updatedDate: "2026-10-26"
 lang: "de"
 originalLang: "de"
 translationKey: "wp-285"
-provenance: "original"
+provenance: "revision"
 translationStatus: "original"
 needsReview: false
 draft: false
@@ -27,7 +27,7 @@ heroImage: "/src/assets/media/2025/03/DCA.png"
 heroAlt: ""
 wpContentHash: "b2911e988127c147fa2c7d92271163516696d2db89ccde984d68ff06e75fd51c"
 bodyHash: "ac3027f3d192259d29142833bb0344003efd8ee609bec811bef7ce9eead92b79"
-editorialRevision: false
+editorialRevision: true
 ---
 
 Die IT-Technologie ist heute so weit fortgeschritten, dass selbst traditionelle Unternehmen ihre Geschäftsmodelle konsequent datengetrieben ausrichten können. Doch es geht um mehr als nur Digitalisierung – es geht darum, den digitalen Datenfluss radikal zu vereinfachen und zentral zu orchestrieren, um daraus maximalen geschäftlichen Mehrwert zu generieren:
@@ -76,4 +76,4 @@ Während IT-Kernprozesse bislang individuell entwickelt wurden, verändert sich 
 
 Die Standardisierung von Daten schafft eine neue Kategorie von Buy-Produkten, die sich direkt in die unternehmenseigene Plattform integrieren lassen – ohne die Kontrolle über wertvolle Unternehmensdaten aus der Hand zu geben. Wissen und Daten bleiben intern, KI wird nativ nutzbar und der datengetriebene Wandel wird zur Realität.
 
-**Sie wollen wissen, wie das funktioniert? Kontaktieren Sie mich.**
+**Sie wollen wissen, wie das funktioniert? [Kontaktieren Sie mich](/about-me/#kontakt).**

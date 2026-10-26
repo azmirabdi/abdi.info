@@ -3,11 +3,11 @@ title: "„Wir wissen gar nicht, wo wir anfangen sollen …“"
 description: "In meinen Gesprächen mit Kunden über IT-Architekturen für ein datengetriebenes Unternehmen höre ich häufig Sätze wie: 1. „Das Thema ist viel zu groß.“ 2. „Wir wissen nicht, wo und…"
 descriptionSource: "derived-lead"
 pubDate: "2025-05-26"
-updatedDate: "2025-05-26"
+updatedDate: "2026-10-26"
 lang: "de"
 originalLang: "de"
 translationKey: "wp-294"
-provenance: "original"
+provenance: "revision"
 translationStatus: "original"
 needsReview: false
 draft: false
@@ -29,7 +29,7 @@ heroImage: "/src/assets/media/2025/05/Slide1-1.png"
 heroAlt: "\"Understand your Data. Shape your Future.\" A. Abdi"
 wpContentHash: "b3d71a9115024de7fa86c453d633c0a106d7647071b3c985ce452a3c4888374a"
 bodyHash: "e6076944cc3e1753d2a6e343144b6d351921105370f03fcb6b9dd62119309964"
-editorialRevision: false
+editorialRevision: true
 ---
 
 In meinen Gesprächen mit Kunden über IT-Architekturen für ein datengetriebenes Unternehmen höre ich häufig Sätze wie:
@@ -106,4 +106,4 @@ Denn: Keiner soll dir später vorwerfen können, **dass es an der IT lag**, wenn
 Bleibt dran. Wir haben die Chance, **einen veralteten IT-Standort neu aufzustellen.**
 Und das geht – **schrittweise, kostenbewusst und mit Weitblick.**
 
-👉 Du willst mehr wissen? **Kontaktiere mich.**
+👉 Du willst mehr wissen? **[Kontaktiere mich](/about-me/#kontakt).**

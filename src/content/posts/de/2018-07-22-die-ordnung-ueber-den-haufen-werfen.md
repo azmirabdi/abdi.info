@@ -3,11 +3,11 @@ title: "Die Ordnung über den Haufen werfen?"
 description: "Steht klassisches Business Process Management (BPM) im Widerspruch zur IT-Architektur nach dem Microservices-Ansatz? Der korrekte Microservices-Ansatz erlaubt immerhin keine zentrale unternehmensweite Prozesssteuerungskomponente. Dieser Artikel schildert, wie eine korrekte Implementierung von BPM-Systemen nach Microservices-Ansatz aussehen müsste, und analysiert die Auswirkungen dieser Fusion der Gegensätze."
 descriptionSource: "excerpt"
 pubDate: "2018-07-22"
-updatedDate: "2021-12-01"
+updatedDate: "2026-10-26"
 lang: "de"
 originalLang: "de"
 translationKey: "wp-8"
-provenance: "original"
+provenance: "revision"
 translationStatus: "original"
 needsReview: false
 draft: false
@@ -31,7 +31,7 @@ heroImage: "/src/assets/media/2018/07/002_rBPM_01.jpg"
 heroAlt: "Die Ordnung über den Haufen werfen?"
 wpContentHash: "93e0d898d69c40db2cac8f2a249e94648e94a75b9b864413b576972d4ce0b2eb"
 bodyHash: "3356e88ff53697d56c978b378d919fc685dafd914e3644216efea36b841d86b4"
-editorialRevision: false
+editorialRevision: true
 ---
 
 #### Steht klassisches Business Process Management (BPM) im Widerspruch zur IT-Architektur nach dem Microservices-Ansatz? Der korrekte Microservices-Ansatz erlaubt immerhin keine zentrale unternehmensweite Prozesssteuerungskomponente. Dieser Artikel schildert, wie eine korrekte Implementierung von BPM-Systemen nach Microservices-Ansatz aussehen müsste, und analysiert die Auswirkungen dieser Fusion der Gegensätze.
@@ -155,4 +155,4 @@ Beim Testen wäre die automatisierte Durchführung der Tests nicht ohne Erweiter
 Vielen Dank für Deine Zeit und liebe Grüße,
 [Azmir Abdi](/about-me/)
 
-PS: Ich würde mich über einen Kommentar oder eine [Email](mailto:azmir@abdi.info) sehr freuen.
+PS: Ich freue mich über eine [Nachricht](/about-me/#kontakt).

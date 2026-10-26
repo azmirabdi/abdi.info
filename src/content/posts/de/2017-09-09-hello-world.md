@@ -3,11 +3,11 @@ title: "Jekyll statt Wordpress"
 description: "`Am Anfang war die Idee … und weil die Idee so \"innovativ\" war, fand sie im Cyberspace ihre Schöpfung.` - Braucht das Internet noch einen Blog? - Braucht Internet meinen Blog? Wie…"
 descriptionSource: "derived-lead"
 pubDate: "2017-09-09"
-updatedDate: "2021-12-01"
+updatedDate: "2026-10-26"
 lang: "de"
 originalLang: "de"
 translationKey: "wp-151"
-provenance: "original"
+provenance: "revision"
 translationStatus: "original"
 needsReview: false
 draft: false
@@ -24,7 +24,7 @@ heroImage: ""
 heroAlt: ""
 wpContentHash: "1c8dc0f1e3b19b0b89200d0383032965c9c739aedea95ef208235cfbe084a8c7"
 bodyHash: "82a2fad34b9288ce462ab512685446ddacdd1552018a4e72dd88b6dd49fb01d8"
-editorialRevision: false
+editorialRevision: true
 ---
 
 `Am Anfang war die Idee … und weil die Idee so "innovativ" war, fand sie im Cyberspace ihre Schöpfung.`
@@ -111,4 +111,4 @@ Erfahrungsbericht mit Staticman: war dich nicht ganz positiv. Einige Kommentare 
 Original Artikel dessen mit Jakyll generierter Inhalt auf github pages gesichtet werden kann findet ihr hier: [https://azabdi.github.io/](https://azabdi.github.io/).Vielen Dank für Deine Zeit und liebe Grüße,
 [Azmir Abdi](/about-me/)
 
-PS: Ich würde mich über einen Kommentar oder eine [Email](mailto:azmir@abdi.info) sehr freuen.
+PS: Ich freue mich über eine [Nachricht](/about-me/#kontakt).

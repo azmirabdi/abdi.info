@@ -3,11 +3,11 @@ title: "rc1 Pattern - Optmist vs. Pessimist"
 description: "Ein optimistisch veranlagter Softwareentwickler (es soll so was anscheinend auch geben) geht von dem goodwill-case aus und implementiert zum Beispiel einen statusbehafteten…"
 descriptionSource: "derived-lead"
 pubDate: "2019-08-14"
-updatedDate: "2021-12-19"
+updatedDate: "2026-10-26"
 lang: "de"
 originalLang: "de"
 translationKey: "wp-83"
-provenance: "original"
+provenance: "revision"
 translationStatus: "original"
 needsReview: false
 draft: false
@@ -26,7 +26,7 @@ heroImage: "/src/assets/media/2020/06/20200105_104406-e1591303615592-crop.jpg"
 heroAlt: ""
 wpContentHash: "6e4d4115bc05e059a0f68f49fad789c5f18f3257de94e487b7118b592be2fd75"
 bodyHash: "c0aa1aa55482c75acab6126349993fbbd84f0e986046587dd450b67004ab20c4"
-editorialRevision: false
+editorialRevision: true
 ---
 
 Ein optimistisch veranlagter Softwareentwickler (es soll so was anscheinend auch geben) geht von dem *goodwill-case* aus und implementiert zum Beispiel einen statusbehafteten Prozess mit dem erfolgreichen Status als initialen Wert. Bsp.:
@@ -76,4 +76,4 @@ Daher finde ich **rc1** als ein Name dem man sich für dieses Verhalten sehr ein
 Vielen Dank für Deine Zeit und liebe Grüße,
 [Azmir Abdi](/about-me/)
 
-PS: Ich würde mich über einen Kommentar oder eine [Email](mailto:azmir@abdi.info) sehr freuen.
+PS: Ich freue mich über eine [Nachricht](/about-me/#kontakt).

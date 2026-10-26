@@ -3,11 +3,11 @@ title: "Vortrag über BDD mit Cucumber"
 description: "`Testen im Vorgehensmittelpunkt mit BDD` Am 03.07.2019 darf ich mit meinem Kollegen einen Vortrag über Behaviour Driven Development an der Agile Testing Konferenz die gemeinsam…"
 descriptionSource: "derived-lead"
 pubDate: "2019-07-02"
-updatedDate: "2021-12-01"
+updatedDate: "2026-10-26"
 lang: "de"
 originalLang: "de"
 translationKey: "wp-75"
-provenance: "original"
+provenance: "revision"
 translationStatus: "original"
 needsReview: false
 draft: false
@@ -26,7 +26,7 @@ heroImage: "/src/assets/media/2020/06/Vortrag_ueber_BDD_mit_Cucumber.jpg"
 heroAlt: ""
 wpContentHash: "593a418ceff0107ee8811a888a0dd4485cdd085f44192bbf3b5aac4f163eef4d"
 bodyHash: "1572052d899572eb9d7882dc5789faa97e49fc120b4ab3a4da37d16ebfb7c9bb"
-editorialRevision: false
+editorialRevision: true
 ---
 
 `Testen im Vorgehensmittelpunkt mit BDD`
@@ -52,6 +52,6 @@ Die auf der Agile Async veröffentliche PDF Folien zum Vortrag können hinter de
 Vielen Dank für Deine Zeit und liebe Grüße,
 [Azmir Abdi](/about-me/)
 
-PS: Ich würde mich über einen Komentar oder eine [Email](mailto:azmir@abdi.info) sehr freuen.
+PS: Ich freue mich über eine [Nachricht](/about-me/#kontakt).
 
 ![](../../../assets/media/2019/05/IMG_9938-1-scaled-e1591474640407-crop.jpg)

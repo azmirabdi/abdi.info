@@ -3,7 +3,7 @@ title: "About Me"
 description: "Azmir Abdi schreibt über Data-Centric Architecture, AI-native und event-driven Systeme und Knowledge Graphs."
 descriptionSource: "written"
 pubDate: "2016-05-10"
-updatedDate: "2026-10-24"
+updatedDate: "2026-10-26"
 lang: "de"
 originalLang: "de"
 translationKey: "wp-152"
@@ -33,7 +33,11 @@ Als erfahrener IT-Experte mit über 15 Jahren Berufserfahrung in Softwarearchite
 
 Mehr dazu in den Artikeln auf diesem [Blog](/).
 
-- [Nachricht an Azmir Abdi auf LinkedIn](https://www.linkedin.com/in/azmir-abdi/)
+## Kontakt
+
+Schreib mir eine Nachricht auf LinkedIn — das ist derzeit der Weg, mich zu erreichen.
+
+- [Nachricht schreiben auf LinkedIn](https://www.linkedin.com/in/azmir-abdi/)
 
 Vielen Dank für Deine Zeit und liebe Grüße,
 [Azmir Abdi](/about-me/)
