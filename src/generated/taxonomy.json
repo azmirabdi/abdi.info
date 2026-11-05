@@ -50,6 +50,12 @@
       "nameEn": "data-centric"
     },
     {
+      "id": "data-mesh",
+      "nameDe": "Data Mesh",
+      "used": true,
+      "nameEn": "Data Mesh"
+    },
+    {
       "id": "datengetrieben",
       "wpTermId": 33,
       "nameDe": "datengetrieben",
@@ -92,6 +98,12 @@
       "nameEn": "JAX"
     },
     {
+      "id": "knowledge-graphs",
+      "nameDe": "Knowledge Graphs",
+      "used": true,
+      "nameEn": "Knowledge Graphs"
+    },
+    {
       "id": "microservices",
       "wpTermId": 6,
       "nameDe": "Microservices",
@@ -131,6 +143,12 @@
       "nameDe": "rc1",
       "used": true,
       "nameEn": "rc1"
+    },
+    {
+      "id": "semantic-mesh",
+      "nameDe": "Semantic Mesh",
+      "used": true,
+      "nameEn": "Semantic Mesh"
     },
     {
       "id": "soa",
