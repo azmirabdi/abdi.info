@@ -10,7 +10,7 @@ translationKey: "semantic-mesh"
 provenance: "original"
 translationStatus: "original"
 needsReview: false
-draft: true
+draft: false
 author: "Azmir Abdi"
 slug: "semantic-mesh"
 legacyPath: "/blog/2026/semantic-mesh/"
